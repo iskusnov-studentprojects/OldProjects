@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;PAPER_WIDTH&quot;:981,&quot;PAPER_HEIGHT&quot;:520,&quot;PAPER_SCROLL_LEFT&quot;:1938,&quot;PAPER_SCROLL_TOP&quot;:2229,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src&quot;,&quot;THEME&quot;:&quot;internetbanking&quot;}">
+ </head> 
+ <body> 
+  <vaadin-horizontal-layout size-full="true"> 
+   <vaadin-vertical-layout width="60%" height-full="true" margin="true" _id="mainLoyout" :center=""> 
+    <vaadin-option-group item-caption-mode="id" _id="transactionType"></vaadin-option-group> 
+    <vaadin-vertical-layout size-auto="true"> 
+     <vaadin-label size-auto="true" plain-text="">
+       Перевести с карты 
+     </vaadin-label> 
+     <vaadin-combo-box responsive="true" item-caption-mode="id" width="300px" _id="cbCardOut"></vaadin-combo-box> 
+    </vaadin-vertical-layout> 
+    <vaadin-vertical-layout visible="false" size-auto="true" _id="extendCard"> 
+     <vaadin-label size-auto="true" plain-text="">
+       Перевести на карту 
+     </vaadin-label> 
+     <vaadin-text-field width="300px" _id="tfCardIn"></vaadin-text-field> 
+    </vaadin-vertical-layout> 
+    <vaadin-vertical-layout size-auto="true" _id="ourCard"> 
+     <vaadin-label size-auto="true" plain-text="">
+       Перевести на карту 
+     </vaadin-label> 
+     <vaadin-combo-box responsive="true" item-caption-mode="id" width="300px" _id="cbCardIn"></vaadin-combo-box> 
+    </vaadin-vertical-layout> 
+    <vaadin-vertical-layout size-auto="true"> 
+     <vaadin-label immediate="true" size-auto="true" plain-text="">
+       Сумма 
+     </vaadin-label> 
+     <vaadin-horizontal-layout> 
+      <vaadin-text-field width="200px" _id="tfRub"></vaadin-text-field> 
+      <vaadin-label width="30px" plain-text="">
+        руб. 
+      </vaadin-label> 
+      <vaadin-text-field width="70px" _id="tfCop"></vaadin-text-field> 
+      <vaadin-label width="30px" plain-text="">
+        коп. 
+      </vaadin-label> 
+     </vaadin-horizontal-layout> 
+    </vaadin-vertical-layout> 
+    <vaadin-button style-name="primary" plain-text="" _id="bMakeTransactoin">
+      Сделать перевод 
+    </vaadin-button> 
+   </vaadin-vertical-layout> 
+  </vaadin-horizontal-layout>  
+ </body>
+</html>

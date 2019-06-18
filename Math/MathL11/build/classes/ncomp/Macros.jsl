@@ -1,0 +1,111 @@
+/*  -*- Mode: java -*-*/
+package ncomp;
+import java.io.*;
+
+import oracle.aurora.ncomp.java.*;
+import oracle.aurora.ncomp.tree.*;
+import oracle.aurora.ncomp.tree.documentation.*;
+import oracle.aurora.ncomp.tree.walkers.StreamlineStatementFlow;
+import oracle.aurora.ncomp.tree.walkers.ComputeLexicalProjection;
+import oracle.aurora.ncomp.javac.*;
+EXTEND oracle.aurora.ncomp.jsp.defmacro.DefiningMacros;
+EXTEND oracle.aurora.ncomp.jsp.build.Build;
+
+/**
+ * Code macros used in code-generator for class ncomp.Test (file Test.jsl).
+ */
+public class Macros extends ParserExtensionPackage {
+
+  MACRO TopLevel DO_NOT_EDIT (TopLevel code) {
+    SourceClass cl = (SourceClass)code;
+    String doc = cl.getDocumentation();
+    doc = "*** DO NOT EDIT.\n Instead, edit files Test.jsl or Macros.jsl when needed, \n" + 
+      "and then run 'make -f codegen.mk' or 'makeit.bat codegen' on NT \n" +
+      "to regenerate Test.java.\n" + doc;
+    cl.setDocumentation(doc);
+    return cl;
+  }
+
+  MACRO Statement LINENUM_IN_TRACE ( Expression test, Expression marker, Expression message, Statement sc) {
+    return NEW Statement ( Expression test, Expression marker, Expression message) 
+      try { test; } catch (Exception e) { 
+        classesTried++; 
+        classesNcomped += reportNcomping(e, marker,")", message);
+      };
+  }
+
+  MACRO Statement DEF_FACTORIAL () {
+    return NEW Statement () {
+      long i; 
+      long result = 1;
+      if (aNumber <= 1)
+        return aNumber/aNumber;
+      else
+      {
+        for (i = 1; i < aNumber; i++)
+          result *= (i + 1);
+      }
+      return result;
+    };
+  }
+
+  MACRO Statement WITH_TIMER (Identifier time, Expression howmany, Expression body, Statement sc) {
+    return NEW Statement (Identifier time, Expression howmany, Expression body, Expression labelExpr = Syntax.make(body.toString())) { 
+      time = System.currentTimeMillis();
+      for (int i = 0; i < howmany; i++) body;
+      time = System.currentTimeMillis() - time;
+      String label = labelExpr + ": ";
+      String howmanyStr = "" + howmany + " times ";
+      String timeStr = "" + time + " MS";
+      int labelLen = howmanyStr.length() + label.length() + timeStr.length();
+      if (labelLen > padLimit) labelLen = padLimit;
+      report(howmanyStr + label + pad.substring(labelLen) + timeStr);
+    };
+  }
+
+  MACRO Statement DUMMY_CODE (Expression bool, Statement sc) {
+    Statement dummy  =  NEW Statement() dummy+= "a" + "b" + "c" + "d" + "e" + "i" + "f" + "g";;
+    int how_many_dummies  = 
+      oracle.aurora.ncomp.jvmc.BinaryJavaMethodTranslator.MAX_TRANSLATABLE_METHOD_SIZE / 16;
+    System.out.println("-- how_many_dummies: " + how_many_dummies);
+    StatementStack  dummy_block_body = new StatementStack(how_many_dummies);
+    for (int i = 0; i < how_many_dummies; i++) dummy_block_body.push(dummy);
+    return NEW Statement (Expression bool, Statement body = dummy_block_body.toArray())
+      if (bool) {String dummy = ""; body};
+  }
+
+  MACRO Field DISTANCE (Type arg_t, Expression accessor )  {
+    return NEW Field (Type arg_t, Expression accessor ) 
+      static public int distance(arg_t s, arg_t t)
+      {
+        int m = s.length;
+        int n = t.length;
+
+        if (m == 0) return n;
+        if (n == 0) return m;
+
+        int dist[][] = new int[m+1][n+1];
+
+        for (int i = 0; i <= m; i++) dist[i][0] = i;   // initialize x coordinates
+        for (int j = 0; j <= n; j++) dist[0][j] = j;   // initialize y coordinates
+ 
+        // for (int i = 1; i <= m; i++)
+        // {
+        //   char s_i = s[(i - 1)];
+        //   for (int j = 1; j <= n; j++)
+        //   {
+        //     char t_j = t[(j - 1)];
+        //     int cost = (s_i == t_j) ? 0 : 1;
+        //     dist[i][j] = min(dist[i-1][j]+1, dist[i][j-1]+1, dist[i-1][j-1] + cost);
+        //   }
+        // }
+        return dist[m][n];
+      };      
+  }
+
+}
+
+
+
+
+

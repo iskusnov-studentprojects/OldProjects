@@ -1,0 +1,47 @@
+  OOPCoursework.Form1.resources - Embedded, ContainedInManifestFile, 
+  OOPCoursework.Status.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly OOPCoursework, Version=1.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Interface Interfaces.IPic: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, BeforeFieldInit
+  Methods:
+    draw(Graphics, ValueType Rectangle IsBoxed, ValueType Rectangle IsBoxed): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface Interfaces.ICreation: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, BeforeFieldInit
+  Methods:
+    create_warship(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    create_stealthship(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    create_transportship(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    create_ship_radar(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    create_regenship(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface Interfaces.ITactics: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, BeforeFieldInit
+  Methods:
+    attack(Rootclass): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    retreat(Rootclass): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    default_move(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface Interfaces.IRegeneration: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, BeforeFieldInit
+  Methods:
+    regeneration(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface Interfaces.IStealth: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, BeforeFieldInit
+  Methods:
+    stealthon(Rase): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface Interfaces.ICapture: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, BeforeFieldInit
+  Methods:
+    capture(Rase): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class OOPCoursework.Status: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Collections.Generic.List`1[Rase]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class OOPCoursework.SpaceWar: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

@@ -1,0 +1,50 @@
+(defun c:osmode_off (/)
+	(setq osmode_old_ (getvar "osmode") )
+	(setvar "osmode" 0)
+)
+
+(defun dist (p1 p2)
+	(sqrt (+ (* (- (car p1) (car p2)) (- (car p1) (car p2))) (* (- (cadr p1) (cadr p2)) (- (cadr p1) (cadr p2))) 1))
+)
+
+(defun drawcircles (base p1 r n)
+	(setq cur p1)
+	(setq ang 0)
+	(setq pred p1)
+	(setq cur p1)
+	(while (< ang (* 2 pi))
+		(if (or (and (>= (dist cur pred) (* 2 r)) (>= (dist cur p1) (* 2 r))) (= (car cur) (car p1))) (progn (command "_circle" cur r) (setq pred cur)))
+		(setq ang (+ ang 0.001))
+		(setq cur (list (+ (car base) (* n r (cos ang))) (+ (cadr base) (* n r (sin ang)))))
+	)
+  	nil
+)
+
+(defun mainfun (p r n)
+	(setq i 1)
+	(setq k 2)
+	(while (<= i n)
+		(if (> i 1)
+			(progn
+				(setq Rad (* r k))
+				(command "_circle" p Rad)
+				(setq p1 (list (+ (* r k) (car p)) (cadr p)))
+				(drawcircles p p1 r k)
+				(setq k (+ k 2))
+			)
+			(progn
+				(setq Rad (* r i))
+				(command "_circle" p Rad)
+			)
+		)
+		(setq i (+ 1 i))
+	)
+  	nil
+)
+
+(defun fun (r n)
+	(c:osmode_off)
+	(setq p (list (+ r 5 (* r n 2)) (+ r 5 (* r n 2))))
+	(mainfun p r n)
+  	nil
+)

@@ -1,0 +1,33 @@
+D:\Alg S4 L5\Alg S4 L5\bin\Debug\Alg S4 L5.exe.config
+D:\Alg S4 L5\Alg S4 L5\bin\Debug\Alg S4 L5.exe
+D:\Alg S4 L5\Alg S4 L5\bin\Debug\Alg S4 L5.pdb
+D:\Alg S4 L5\Alg S4 L5\bin\Debug\GraphVisualization.dll
+D:\Alg S4 L5\Alg S4 L5\bin\Debug\GraphVisualization.pdb
+D:\Alg S4 L5\Alg S4 L5\obj\Debug\Alg S4 L5.csprojResolveAssemblyReference.cache
+D:\Alg S4 L5\Alg S4 L5\obj\Debug\Alg_S4_L5.Form1.resources
+D:\Alg S4 L5\Alg S4 L5\obj\Debug\Alg_S4_L5.Properties.Resources.resources
+D:\Alg S4 L5\Alg S4 L5\obj\Debug\Alg S4 L5.csproj.GenerateResource.Cache
+D:\Alg S4 L5\Alg S4 L5\obj\Debug\Alg S4 L5.exe
+D:\Alg S4 L5\Alg S4 L5\obj\Debug\Alg S4 L5.pdb
+\\SERGEY-PC\Projects\Alg S4 L5\Alg S4 L5\bin\Debug\Alg S4 L5.exe.config
+\\SERGEY-PC\Projects\Alg S4 L5\Alg S4 L5\obj\Debug\Alg S4 L5.exe
+\\SERGEY-PC\Projects\Alg S4 L5\Alg S4 L5\obj\Debug\Alg S4 L5.pdb
+\\SERGEY-PC\Projects\Alg S4 L5\Alg S4 L5\bin\Debug\Alg S4 L5.exe
+\\SERGEY-PC\Projects\Alg S4 L5\Alg S4 L5\bin\Debug\Alg S4 L5.pdb
+\\SERGEY-PC\Projects\Alg S4 L5\Alg S4 L5\bin\Debug\GraphVisualization.dll
+\\SERGEY-PC\Projects\Alg S4 L5\Alg S4 L5\bin\Debug\GraphVisualization.pdb
+\\SERGEY-PC\Projects\Alg S4 L5\Alg S4 L5\obj\Debug\Alg S4 L5.csprojResolveAssemblyReference.cache
+\\SERGEY-PC\Projects\Alg S4 L5\Alg S4 L5\obj\Debug\Alg_S4_L5.Form1.resources
+\\SERGEY-PC\Projects\Alg S4 L5\Alg S4 L5\obj\Debug\Alg_S4_L5.Properties.Resources.resources
+\\SERGEY-PC\Projects\Alg S4 L5\Alg S4 L5\obj\Debug\Alg S4 L5.csproj.GenerateResource.Cache
+D:\Projects\Alg S4 L5\Alg S4 L5\bin\Debug\Alg S4 L5.exe.config
+D:\Projects\Alg S4 L5\Alg S4 L5\obj\Debug\Alg S4 L5.exe
+D:\Projects\Alg S4 L5\Alg S4 L5\obj\Debug\Alg S4 L5.pdb
+D:\Projects\Alg S4 L5\Alg S4 L5\bin\Debug\Alg S4 L5.exe
+D:\Projects\Alg S4 L5\Alg S4 L5\bin\Debug\Alg S4 L5.pdb
+D:\Projects\Alg S4 L5\Alg S4 L5\bin\Debug\GraphVisualization.dll
+D:\Projects\Alg S4 L5\Alg S4 L5\bin\Debug\GraphVisualization.pdb
+D:\Projects\Alg S4 L5\Alg S4 L5\obj\Debug\Alg S4 L5.csprojResolveAssemblyReference.cache
+D:\Projects\Alg S4 L5\Alg S4 L5\obj\Debug\Alg_S4_L5.Form1.resources
+D:\Projects\Alg S4 L5\Alg S4 L5\obj\Debug\Alg_S4_L5.Properties.Resources.resources
+D:\Projects\Alg S4 L5\Alg S4 L5\obj\Debug\Alg S4 L5.csproj.GenerateResource.Cache

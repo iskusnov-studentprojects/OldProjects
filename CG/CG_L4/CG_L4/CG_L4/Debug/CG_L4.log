@@ -1,0 +1,12 @@
+﻿  main.cpp
+d:\googledrive\projects\cg\cg_l4\cg_l4\cg_l4\main.cpp(20): warning C4838: преобразование из "double" в "float" требует сужающего преобразования
+d:\googledrive\projects\cg\cg_l4\cg_l4\cg_l4\main.cpp(21): warning C4838: преобразование из "double" в "float" требует сужающего преобразования
+d:\googledrive\projects\cg\cg_l4\cg_l4\cg_l4\main.cpp(22): warning C4838: преобразование из "double" в "float" требует сужающего преобразования
+d:\googledrive\projects\cg\cg_l4\cg_l4\cg_l4\main.cpp(25): warning C4838: преобразование из "double" в "float" требует сужающего преобразования
+d:\googledrive\projects\cg\cg_l4\cg_l4\cg_l4\main.cpp(26): warning C4838: преобразование из "double" в "float" требует сужающего преобразования
+d:\googledrive\projects\cg\cg_l4\cg_l4\cg_l4\main.cpp(27): warning C4838: преобразование из "double" в "float" требует сужающего преобразования
+d:\googledrive\projects\cg\cg_l4\cg_l4\cg_l4\main.cpp(31): warning C4838: преобразование из "double" в "float" требует сужающего преобразования
+d:\googledrive\projects\cg\cg_l4\cg_l4\cg_l4\main.cpp(32): warning C4838: преобразование из "double" в "float" требует сужающего преобразования
+d:\googledrive\projects\cg\cg_l4\cg_l4\cg_l4\main.cpp(33): warning C4838: преобразование из "double" в "float" требует сужающего преобразования
+  CG_L4.vcxproj -> D:\GoogleDrive\Projects\CG\CG_L4\CG_L4\Debug\CG_L4.exe
+  CG_L4.vcxproj -> D:\GoogleDrive\Projects\CG\CG_L4\CG_L4\Debug\CG_L4.pdb (Full PDB)

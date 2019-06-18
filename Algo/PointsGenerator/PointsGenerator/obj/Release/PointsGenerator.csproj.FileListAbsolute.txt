@@ -1,0 +1,12 @@
+c:\users\домо\documents\visual studio 2012\Projects\PointsGenerator\PointsGenerator\bin\Release\PointsGenerator.exe.config
+c:\users\домо\documents\visual studio 2012\Projects\PointsGenerator\PointsGenerator\bin\Release\PointsGenerator.exe
+c:\users\домо\documents\visual studio 2012\Projects\PointsGenerator\PointsGenerator\bin\Release\PointsGenerator.pdb
+c:\users\домо\documents\visual studio 2012\Projects\PointsGenerator\PointsGenerator\obj\Release\PointsGenerator.csprojResolveAssemblyReference.cache
+c:\users\домо\documents\visual studio 2012\Projects\PointsGenerator\PointsGenerator\obj\Release\PointsGenerator.exe
+c:\users\домо\documents\visual studio 2012\Projects\PointsGenerator\PointsGenerator\obj\Release\PointsGenerator.pdb
+D:\Projects\PointsGenerator\PointsGenerator\bin\Release\PointsGenerator.exe.config
+D:\Projects\PointsGenerator\PointsGenerator\obj\Release\PointsGenerator.exe
+D:\Projects\PointsGenerator\PointsGenerator\obj\Release\PointsGenerator.pdb
+D:\Projects\PointsGenerator\PointsGenerator\bin\Release\PointsGenerator.exe
+D:\Projects\PointsGenerator\PointsGenerator\bin\Release\PointsGenerator.pdb
+D:\Projects\PointsGenerator\PointsGenerator\obj\Release\PointsGenerator.csprojResolveAssemblyReference.cache

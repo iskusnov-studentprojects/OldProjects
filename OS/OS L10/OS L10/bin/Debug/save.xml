@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ArrayOfMyThread xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MyThread>
+    <FigureColor>-3482319</FigureColor>
+    <Location>
+      <X>84</X>
+      <Y>128</Y>
+    </Location>
+    <Name>MyThread1</Name>
+    <Priority>Lowest</Priority>
+  </MyThread>
+  <MyThread>
+    <FigureColor>-5831746</FigureColor>
+    <Location>
+      <X>147</X>
+      <Y>212</Y>
+    </Location>
+    <Name>MyThread2</Name>
+    <Priority>Lowest</Priority>
+  </MyThread>
+  <MyThread>
+    <FigureColor>-15633000</FigureColor>
+    <Location>
+      <X>268</X>
+      <Y>24</Y>
+    </Location>
+    <Name>MyThread3</Name>
+    <Priority>Normal</Priority>
+  </MyThread>
+</ArrayOfMyThread>

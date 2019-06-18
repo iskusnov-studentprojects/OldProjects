@@ -1,0 +1,15 @@
+D:\GoogleDrive\Projects\Interfaces\IntL5\IntL5\bin\Debug\IntL5.exe.config
+D:\GoogleDrive\Projects\Interfaces\IntL5\IntL5\bin\Debug\IntL5.exe
+D:\GoogleDrive\Projects\Interfaces\IntL5\IntL5\bin\Debug\IntL5.pdb
+D:\GoogleDrive\Projects\Interfaces\IntL5\IntL5\obj\Debug\IntL5.csprojResolveAssemblyReference.cache
+D:\GoogleDrive\Projects\Interfaces\IntL5\IntL5\obj\Debug\IntL5.Form1.resources
+D:\GoogleDrive\Projects\Interfaces\IntL5\IntL5\obj\Debug\IntL5.Properties.Resources.resources
+D:\GoogleDrive\Projects\Interfaces\IntL5\IntL5\obj\Debug\IntL5.csproj.GenerateResource.Cache
+D:\GoogleDrive\Projects\Interfaces\IntL5\IntL5\obj\Debug\IntL5.exe
+D:\GoogleDrive\Projects\Interfaces\IntL5\IntL5\obj\Debug\IntL5.pdb
+D:\GoogleDrive\Projects\Interfaces\IntL5\IntL5\obj\Debug\IntL5.Form2.resources
+D:\GoogleDrive\Projects\Interfaces\IntL5\IntL5\obj\Debug\Interop.ACTIVEXLib.dll
+D:\GoogleDrive\Projects\Interfaces\IntL5\IntL5\obj\Debug\Interop.ExcelPlugInShell.dll
+D:\GoogleDrive\Projects\Interfaces\IntL5\IntL5\obj\Debug\Interop.LCC11.dll
+D:\GoogleDrive\Projects\Interfaces\IntL5\IntL5\obj\Debug\Interop.TASKLAUNCHLib.dll
+D:\GoogleDrive\Projects\Interfaces\IntL5\IntL5\obj\Debug\IntL5.csproj.ResolveComReference.cache

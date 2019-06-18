@@ -1,0 +1,9 @@
+D:\Projects\Alg S4 L9\Alg S4 L9\bin\Debug\Alg S4 L9.exe.config
+D:\Projects\Alg S4 L9\Alg S4 L9\bin\Debug\Alg S4 L9.exe
+D:\Projects\Alg S4 L9\Alg S4 L9\bin\Debug\Alg S4 L9.pdb
+D:\Projects\Alg S4 L9\Alg S4 L9\obj\Debug\Alg S4 L9.csprojResolveAssemblyReference.cache
+D:\Projects\Alg S4 L9\Alg S4 L9\obj\Debug\Alg_S4_L9.Form1.resources
+D:\Projects\Alg S4 L9\Alg S4 L9\obj\Debug\Alg_S4_L9.Properties.Resources.resources
+D:\Projects\Alg S4 L9\Alg S4 L9\obj\Debug\Alg S4 L9.csproj.GenerateResource.Cache
+D:\Projects\Alg S4 L9\Alg S4 L9\obj\Debug\Alg S4 L9.exe
+D:\Projects\Alg S4 L9\Alg S4 L9\obj\Debug\Alg S4 L9.pdb

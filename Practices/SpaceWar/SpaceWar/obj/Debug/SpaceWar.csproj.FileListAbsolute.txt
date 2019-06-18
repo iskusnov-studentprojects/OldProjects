@@ -1,0 +1,12 @@
+D:\Projects\SpaceWar\SpaceWar\bin\Debug\SpaceWar.exe.config
+D:\Projects\SpaceWar\SpaceWar\bin\Debug\SpaceWar.exe
+D:\Projects\SpaceWar\SpaceWar\bin\Debug\SpaceWar.pdb
+D:\Projects\SpaceWar\SpaceWar\obj\Debug\SpaceWar.csprojResolveAssemblyReference.cache
+D:\Projects\SpaceWar\SpaceWar\obj\Debug\SpaceWar.MainWindow.resources
+D:\Projects\SpaceWar\SpaceWar\obj\Debug\SpaceWar.Properties.Resources.resources
+D:\Projects\SpaceWar\SpaceWar\obj\Debug\SpaceWar.csproj.GenerateResource.Cache
+D:\Projects\SpaceWar\SpaceWar\obj\Debug\SpaceWar.exe
+D:\Projects\SpaceWar\SpaceWar\obj\Debug\SpaceWar.pdb
+\\SERGEY-PC\Projects\SpaceWar\SpaceWar\bin\Debug\SpaceWar.exe.config
+\\SERGEY-PC\Projects\SpaceWar\SpaceWar\obj\Debug\SpaceWar.exe
+\\SERGEY-PC\Projects\SpaceWar\SpaceWar\obj\Debug\SpaceWar.pdb

@@ -1,0 +1,18 @@
+C:\Users\Work\Google Диск\Projects\JumpPointSearch\JumpPointSearch\bin\Debug\JumpPointSearch.exe.config
+C:\Users\Work\Google Диск\Projects\JumpPointSearch\JumpPointSearch\bin\Debug\JumpPointSearch.exe
+C:\Users\Work\Google Диск\Projects\JumpPointSearch\JumpPointSearch\bin\Debug\JumpPointSearch.pdb
+C:\Users\Work\Google Диск\Projects\JumpPointSearch\JumpPointSearch\obj\Debug\JumpPointSearch.csprojResolveAssemblyReference.cache
+C:\Users\Work\Google Диск\Projects\JumpPointSearch\JumpPointSearch\obj\Debug\JumpPointSearch.Form1.resources
+C:\Users\Work\Google Диск\Projects\JumpPointSearch\JumpPointSearch\obj\Debug\JumpPointSearch.Properties.Resources.resources
+C:\Users\Work\Google Диск\Projects\JumpPointSearch\JumpPointSearch\obj\Debug\JumpPointSearch.csproj.GenerateResource.Cache
+C:\Users\Work\Google Диск\Projects\JumpPointSearch\JumpPointSearch\obj\Debug\JumpPointSearch.exe
+C:\Users\Work\Google Диск\Projects\JumpPointSearch\JumpPointSearch\obj\Debug\JumpPointSearch.pdb
+C:\Users\Work\Google Диск\Projects\JumpPointSearch\JumpPointSearch\obj\Debug\JumpPointSearch.SizeDialog.resources
+D:\GoogleDrive\Projects\Algo\JumpPointSearch\JumpPointSearch\bin\Debug\JumpPointSearch.exe.config
+D:\GoogleDrive\Projects\Algo\JumpPointSearch\JumpPointSearch\obj\Debug\JumpPointSearch.exe
+D:\GoogleDrive\Projects\Algo\JumpPointSearch\JumpPointSearch\obj\Debug\JumpPointSearch.pdb
+D:\GoogleDrive\Projects\Algo\JumpPointSearch\JumpPointSearch\obj\Debug\JumpPointSearch.csprojResolveAssemblyReference.cache
+D:\GoogleDrive\Projects\Algo\JumpPointSearch\JumpPointSearch\obj\Debug\JumpPointSearch.Form1.resources
+D:\GoogleDrive\Projects\Algo\JumpPointSearch\JumpPointSearch\obj\Debug\JumpPointSearch.Properties.Resources.resources
+D:\GoogleDrive\Projects\Algo\JumpPointSearch\JumpPointSearch\obj\Debug\JumpPointSearch.SizeDialog.resources
+D:\GoogleDrive\Projects\Algo\JumpPointSearch\JumpPointSearch\obj\Debug\JumpPointSearch.csproj.GenerateResource.Cache

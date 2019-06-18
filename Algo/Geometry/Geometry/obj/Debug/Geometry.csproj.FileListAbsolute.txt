@@ -1,0 +1,11 @@
+c:\users\домо\documents\visual studio 2012\Projects\Geometry\Geometry\bin\Debug\Geometry.exe.config
+D:\Projects\Geometry\Geometry\bin\Debug\Geometry.exe.config
+D:\Projects\Geometry\Geometry\obj\Debug\Geometry.csprojResolveAssemblyReference.cache
+D:\Projects\Geometry\Geometry\obj\Debug\Geometry.Form1.resources
+D:\Projects\Geometry\Geometry\obj\Debug\Geometry.Properties.Resources.resources
+D:\Projects\Geometry\Geometry\obj\Debug\Geometry.csproj.GenerateResource.Cache
+D:\Projects\Geometry\Geometry\bin\Debug\Geometry.exe
+D:\Projects\Geometry\Geometry\bin\Debug\Geometry.pdb
+D:\Projects\Geometry\Geometry\obj\Debug\Geometry.exe
+D:\Projects\Geometry\Geometry\obj\Debug\Geometry.pdb
+D:\GoogleDrive\Projects\Algo\Geometry\Geometry\obj\Debug\Geometry.pdb

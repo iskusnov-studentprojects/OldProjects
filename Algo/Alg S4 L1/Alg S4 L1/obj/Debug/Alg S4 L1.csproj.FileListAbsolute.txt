@@ -1,0 +1,6 @@
+D:\Alg S4 L1\Alg S4 L1\bin\Debug\Alg S4 L1.exe.config
+D:\Alg S4 L1\Alg S4 L1\bin\Debug\Alg S4 L1.exe
+D:\Alg S4 L1\Alg S4 L1\bin\Debug\Alg S4 L1.pdb
+D:\Alg S4 L1\Alg S4 L1\obj\Debug\Alg S4 L1.csprojResolveAssemblyReference.cache
+D:\Alg S4 L1\Alg S4 L1\obj\Debug\Alg S4 L1.exe
+D:\Alg S4 L1\Alg S4 L1\obj\Debug\Alg S4 L1.pdb

@@ -1,0 +1,9 @@
+D:\Projects\OS L12\OS L12\bin\Release\OS L12.exe.config
+D:\Projects\OS L12\OS L12\bin\Release\OS L12.exe
+D:\Projects\OS L12\OS L12\bin\Release\OS L12.pdb
+D:\Projects\OS L12\OS L12\obj\Release\OS_L12.Form1.resources
+D:\Projects\OS L12\OS L12\obj\Release\OS_L12.Properties.Resources.resources
+D:\Projects\OS L12\OS L12\obj\Release\OS L12.csproj.GenerateResource.Cache
+D:\Projects\OS L12\OS L12\obj\Release\OS L12.exe
+D:\Projects\OS L12\OS L12\obj\Release\OS L12.pdb
+D:\Projects\OS L12\OS L12\obj\Release\OS L12.csprojResolveAssemblyReference.cache

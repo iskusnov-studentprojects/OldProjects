@@ -1,0 +1,62 @@
+﻿Построение начато 30.12.2013 7:11:06.
+     1>Проект "C:\Users\домо\Desktop\OOPCoursework\OOPCoursework\OOPCoursework.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files\Windows Kits\8.0\References\CommonConfiguration\Neutral" /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\OOPCoursework.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib SpaceShip.cpp
+         SpaceShip.cpp
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Rase.h(42): warning C4486: Rase::NumberWarship::set: закрытый виртуальный метод класса-ссылки или класса-значения должен быть помечен как "sealed"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Rase.h(47): warning C4486: Rase::NumberShip_radar::set: закрытый виртуальный метод класса-ссылки или класса-значения должен быть помечен как "sealed"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Rase.h(52): warning C4486: Rase::NumberTransportship::set: закрытый виртуальный метод класса-ссылки или класса-значения должен быть помечен как "sealed"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Rase.h(57): warning C4486: Rase::NumberRegenship::set: закрытый виртуальный метод класса-ссылки или класса-значения должен быть помечен как "sealed"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Rase.h(62): warning C4486: Rase::NumberStealthship::set: закрытый виртуальный метод класса-ссылки или класса-значения должен быть помечен как "sealed"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Rase.h(67): warning C4486: Rase::Name::set: закрытый виртуальный метод класса-ссылки или класса-значения должен быть помечен как "sealed"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Rase.h(72): warning C4486: Rase::Rasetype::set: закрытый виртуальный метод класса-ссылки или класса-значения должен быть помечен как "sealed"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Rase.h(73): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Interfaces.h(15): warning C4677: create_warship: сигнатура члена, не являющегося частным, содержит частный тип сборки "Rootclass"
+                 c:\users\домо\desktop\oopcoursework\oopcoursework\rootclass.h(8): см. объявление "Rootclass"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Interfaces.h(16): warning C4677: create_stealthship: сигнатура члена, не являющегося частным, содержит частный тип сборки "Rootclass"
+                 c:\users\домо\desktop\oopcoursework\oopcoursework\rootclass.h(8): см. объявление "Rootclass"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Interfaces.h(17): warning C4677: create_transportship: сигнатура члена, не являющегося частным, содержит частный тип сборки "Rootclass"
+                 c:\users\домо\desktop\oopcoursework\oopcoursework\rootclass.h(8): см. объявление "Rootclass"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Interfaces.h(18): warning C4677: create_ship_radar: сигнатура члена, не являющегося частным, содержит частный тип сборки "Rootclass"
+                 c:\users\домо\desktop\oopcoursework\oopcoursework\rootclass.h(8): см. объявление "Rootclass"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Interfaces.h(19): warning C4677: create_regenship: сигнатура члена, не являющегося частным, содержит частный тип сборки "Rootclass"
+                 c:\users\домо\desktop\oopcoursework\oopcoursework\rootclass.h(8): см. объявление "Rootclass"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Interfaces.h(24): warning C4677: attack: сигнатура члена, не являющегося частным, содержит частный тип сборки "Rootclass"
+                 c:\users\домо\desktop\oopcoursework\oopcoursework\rootclass.h(8): см. объявление "Rootclass"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Interfaces.h(25): warning C4677: retreat: сигнатура члена, не являющегося частным, содержит частный тип сборки "Rootclass"
+                 c:\users\домо\desktop\oopcoursework\oopcoursework\rootclass.h(8): см. объявление "Rootclass"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Interfaces.h(36): warning C4677: stealthon: сигнатура члена, не являющегося частным, содержит частный тип сборки "Rase"
+                 c:\users\домо\desktop\oopcoursework\oopcoursework\Rase.h(9): см. объявление "Rase"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\Interfaces.h(41): warning C4677: capture: сигнатура члена, не являющегося частным, содержит частный тип сборки "Rase"
+                 c:\users\домо\desktop\oopcoursework\oopcoursework\Rase.h(9): см. объявление "Rase"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\SpaceShip.h(42): warning C4490: override: неправильное использование спецификатора переопределения; "SpaceShip::draw" не соответствует методу базового класса-ссылки
+                 "new" или "override" разрешены только, когда существует соответствующий базовый метод из класса ref
+                 Соответствующий базовый метод "Interfaces::IPic::draw" происходит из класса интерфейса (а не класса ref)
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\SpaceShip.h(12): warning C4570: SpaceShip: не был объявлен явно как абстрактный, однако содержит абстрактные функции
+                 void SpaceShip::draw(System::Drawing::Graphics ^,System::Drawing::Rectangle ^,System::Drawing::Rectangle ^): абстрактный
+                 c:\users\домо\desktop\oopcoursework\oopcoursework\SpaceShip.h(42): см. объявление "SpaceShip::draw"
+                 void SpaceShip::attack(Rootclass ^): абстрактный
+                 c:\users\домо\desktop\oopcoursework\oopcoursework\SpaceShip.h(41): см. объявление "SpaceShip::attack"
+     1>c:\users\домо\desktop\oopcoursework\oopcoursework\spaceship.cpp(148): warning C4715: SpaceShip::BFS: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\домо\Desktop\OOPCoursework\Debug\OOPCoursework.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\OOPCoursework.Form1.resources /ASSEMBLYRESOURCE:Debug\OOPCoursework.Status.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\домо\Desktop\OOPCoursework\Debug\OOPCoursework.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\Field.obj
+         Debug\OOPCoursework.obj
+         Debug\Planet.obj
+         Debug\Rase.obj
+         Debug\Regenship.obj
+         Debug\Ship_radar.obj
+         Debug\SpaceShip.obj
+         Debug\Status.obj
+         Debug\stdafx.obj
+         Debug\Stealthship.obj
+         Debug\Transportship.obj
+         Debug\Warship.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         OOPCoursework.vcxproj -> C:\Users\домо\Desktop\OOPCoursework\Debug\OOPCoursework.exe
+     1>Построение проекта "C:\Users\домо\Desktop\OOPCoursework\OOPCoursework\OOPCoursework.vcxproj" завершено (целевые объекты Build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:25.02

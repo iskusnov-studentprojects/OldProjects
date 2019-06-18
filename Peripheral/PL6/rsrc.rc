@@ -1,0 +1,8 @@
+APP_MENU menu discardable
+begin
+	popup "File"
+	begin
+		menuitem "Exit", 2000
+	end
+	menuitem "Help", 2001
+end	

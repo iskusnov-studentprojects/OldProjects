@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;PAPER_WIDTH&quot;:1040,&quot;PAPER_HEIGHT&quot;:626,&quot;PAPER_SCROLL_LEFT&quot;:1946,&quot;PAPER_SCROLL_TOP&quot;:2269,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src&quot;,&quot;THEME&quot;:&quot;internetbanking&quot;}">
+ </head> 
+ <body> 
+  <vaadin-grid-layout size-full="true"> 
+   <row> 
+    <column> 
+     <vaadin-vertical-layout width="60%" height-full="true" margin="true" _id="mainLayout"> 
+      <vaadin-horizontal-layout> 
+       <vaadin-label width="185px" plain-text="">
+         Выберите карту 
+       </vaadin-label> 
+       <vaadin-combo-box item-caption-mode="id" width="200px" height="30px" _id="cbCardIn"></vaadin-combo-box> 
+      </vaadin-horizontal-layout> 
+      <vaadin-vertical-layout size-auto="true" :expand=""> 
+       <vaadin-check-box caption="Автопополнение по периоду" _id="cbTime"></vaadin-check-box> 
+       <vaadin-vertical-layout enabled="false" size-auto="true" margin="true" _id="timeBlock"> 
+        <vaadin-horizontal-layout> 
+         <vaadin-label width="150px" plain-text="">
+           Прериодичность 
+         </vaadin-label> 
+         <vaadin-label width="65px" plain-text="">
+           каждые 
+         </vaadin-label> 
+         <vaadin-text-field width="50px" height="30px" _id="tfPeriodTime"></vaadin-text-field> 
+         <vaadin-label size-auto="true" plain-text="">
+           дней 
+         </vaadin-label> 
+        </vaadin-horizontal-layout> 
+        <vaadin-horizontal-layout> 
+         <vaadin-label width="150px" height="25px" plain-text="">
+           Действует с 
+         </vaadin-label> 
+         <vaadin-popup-date-field width="150px" height="30px" _id="tfPeriodSinceDate"></vaadin-popup-date-field> 
+         <vaadin-label width="30px" plain-text="">
+           по 
+         </vaadin-label> 
+         <vaadin-popup-date-field width="150px" height="30px" _id="tfPeriodToDate"></vaadin-popup-date-field> 
+        </vaadin-horizontal-layout> 
+        <vaadin-horizontal-layout> 
+         <vaadin-label width="150px" plain-text="">
+           Сумма пополнения 
+         </vaadin-label> 
+         <vaadin-text-field width="200px" height="30px" _id="tfPeriodRechargeSummRub"></vaadin-text-field> 
+         <vaadin-label width="30px" plain-text="">
+           руб. 
+         </vaadin-label> 
+         <vaadin-text-field width="50px" height="30px" _id="tfPeriodRechargeSummCop"></vaadin-text-field> 
+         <vaadin-label width="30px" plain-text="">
+           коп. 
+         </vaadin-label> 
+        </vaadin-horizontal-layout> 
+       </vaadin-vertical-layout> 
+      </vaadin-vertical-layout> 
+      <vaadin-vertical-layout size-auto="true" :expand=""> 
+       <vaadin-check-box caption="Автопополнение по пороговой сумме" _id="cbAmount"></vaadin-check-box> 
+       <vaadin-vertical-layout enabled="false" size-auto="true" margin="true" _id="amountBlock"> 
+        <vaadin-horizontal-layout> 
+         <vaadin-label width="150px" height="25px" plain-text="">
+           Действует с 
+         </vaadin-label> 
+         <vaadin-popup-date-field width="150px" height="30px" _id="tfAmountSinceDate"></vaadin-popup-date-field> 
+         <vaadin-label width="30px" plain-text="">
+           по 
+         </vaadin-label> 
+         <vaadin-popup-date-field width="150px" height="30px" _id="tfAmountToDate"></vaadin-popup-date-field> 
+        </vaadin-horizontal-layout> 
+        <vaadin-horizontal-layout> 
+         <vaadin-label width="150px" plain-text="">
+           Пороговая сумма 
+         </vaadin-label> 
+         <vaadin-horizontal-layout> 
+          <vaadin-text-field width="200px" height="30px" _id="tfAmountSummRub"></vaadin-text-field> 
+          <vaadin-label width="30px" plain-text="">
+            руб. 
+          </vaadin-label> 
+          <vaadin-text-field width="50px" height="30px" _id="tfAmountSummCop"></vaadin-text-field> 
+          <vaadin-label size-auto="true" plain-text="">
+            коп. 
+          </vaadin-label> 
+         </vaadin-horizontal-layout> 
+        </vaadin-horizontal-layout> 
+        <vaadin-horizontal-layout> 
+         <vaadin-label width="150px" plain-text="">
+           Сумма пополнения 
+         </vaadin-label> 
+         <vaadin-horizontal-layout> 
+          <vaadin-text-field width="200px" height="35px" _id="tfAmountRechargeSummRub"></vaadin-text-field> 
+          <vaadin-label width="30px" plain-text="">
+            руб. 
+          </vaadin-label> 
+          <vaadin-text-field width="50px" height="30px" _id="tfAmountRechargeSummCop"></vaadin-text-field> 
+          <vaadin-label size-auto="true" plain-text="">
+            коп. 
+          </vaadin-label> 
+         </vaadin-horizontal-layout> 
+        </vaadin-horizontal-layout> 
+       </vaadin-vertical-layout> 
+      </vaadin-vertical-layout> 
+      <vaadin-button style-name="primary" width="150px" plain-text="" _id="bConfirm" :center="">
+        Подтвердить 
+      </vaadin-button> 
+     </vaadin-vertical-layout> 
+    </column> 
+   </row> 
+  </vaadin-grid-layout>  
+ </body>
+</html>

@@ -1,0 +1,36 @@
+﻿  analyzer.cpp
+analyzer.cpp(24): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\conio.h(452): note:  см. объявление "getch"
+  DataTree.cpp
+DataTree.cpp(21): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note:  см. объявление "strcat"
+DataTree.cpp(25): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note:  см. объявление "strcpy"
+DataTree.cpp(57): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note:  см. объявление "strcat"
+DataTree.cpp(65): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note:  см. объявление "strcat"
+DataTree.cpp(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note:  см. объявление "strcpy"
+  Scaner.cpp
+Scaner.cpp(11): warning C4244: =: преобразование "std::streamoff" в "int", возможна потеря данных
+  defs.cpp
+  SemAnalizer.cpp
+SemAnalizer.cpp(169): warning C4101: lex2: неиспользованная локальная переменная
+SemAnalizer.cpp(272): warning C4101: type: неиспользованная локальная переменная
+SemAnalizer.cpp(514): warning C4244: =: преобразование "long" в "short", возможна потеря данных
+SemAnalizer.cpp(522): warning C4244: =: преобразование "long" в "short", возможна потеря данных
+SemAnalizer.cpp(556): warning C4244: =: преобразование "long" в "short", возможна потеря данных
+SemAnalizer.cpp(563): warning C4244: =: преобразование "long" в "short", возможна потеря данных
+SemAnalizer.cpp(570): warning C4244: =: преобразование "long" в "short", возможна потеря данных
+SemAnalizer.cpp(610): warning C4244: =: преобразование "long" в "short", возможна потеря данных
+SemAnalizer.cpp(586): warning C4101: type2: неиспользованная локальная переменная
+  Создание кода
+d:\googledrive\projects\theorlang\analyzer\analyzer\semanalizer.cpp(655): warning C4700: использована неинициализированная локальная переменная "type"
+d:\googledrive\projects\theorlang\analyzer\analyzer\semanalizer.cpp(656): warning C4700: использована неинициализированная локальная переменная "res"
+d:\googledrive\projects\theorlang\analyzer\analyzer\semanalizer.cpp(90): warning C4700: использована неинициализированная локальная переменная "node"
+d:\googledrive\projects\theorlang\analyzer\analyzer\semanalizer.cpp(221): warning C4700: использована неинициализированная локальная переменная "type"
+  All 356 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  analyzer.vcxproj -> D:\GoogleDrive\Projects\TheorLang\analyzer\Release\analyzer.exe
+  analyzer.vcxproj -> D:\GoogleDrive\Projects\TheorLang\analyzer\Release\analyzer.pdb (Full PDB)

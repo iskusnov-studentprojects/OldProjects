@@ -1,0 +1,4 @@
+cons(X, Y, [X|Y]).
+fun(ANS,[X|Y],Z):-X=Z,cons(A,B,Y),fun(ANS,B,Z),cons(X,B,ANS).
+fun(ANS,[X|Y],Z):-fun(ANS,Y,Z).
+fun([],[],Z).

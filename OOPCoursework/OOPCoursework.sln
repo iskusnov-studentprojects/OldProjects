@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOPCoursework", "OOPCoursework\OOPCoursework.vcxproj", "{85D68FE8-18D9-43C3-AE09-24D2EAEC9EC9}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "SpaceWar", "SpaceWar\SpaceWar.modelproj", "{EAC99638-71AD-443D-B0C8-E2CA4D48EB01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85D68FE8-18D9-43C3-AE09-24D2EAEC9EC9}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{85D68FE8-18D9-43C3-AE09-24D2EAEC9EC9}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{85D68FE8-18D9-43C3-AE09-24D2EAEC9EC9}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{85D68FE8-18D9-43C3-AE09-24D2EAEC9EC9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{85D68FE8-18D9-43C3-AE09-24D2EAEC9EC9}.Debug|Win32.Build.0 = Debug|Win32
+		{85D68FE8-18D9-43C3-AE09-24D2EAEC9EC9}.Release|Any CPU.ActiveCfg = Release|Win32
+		{85D68FE8-18D9-43C3-AE09-24D2EAEC9EC9}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{85D68FE8-18D9-43C3-AE09-24D2EAEC9EC9}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{85D68FE8-18D9-43C3-AE09-24D2EAEC9EC9}.Release|Win32.ActiveCfg = Release|Win32
+		{85D68FE8-18D9-43C3-AE09-24D2EAEC9EC9}.Release|Win32.Build.0 = Release|Win32
+		{EAC99638-71AD-443D-B0C8-E2CA4D48EB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC99638-71AD-443D-B0C8-E2CA4D48EB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC99638-71AD-443D-B0C8-E2CA4D48EB01}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EAC99638-71AD-443D-B0C8-E2CA4D48EB01}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EAC99638-71AD-443D-B0C8-E2CA4D48EB01}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{EAC99638-71AD-443D-B0C8-E2CA4D48EB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC99638-71AD-443D-B0C8-E2CA4D48EB01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC99638-71AD-443D-B0C8-E2CA4D48EB01}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EAC99638-71AD-443D-B0C8-E2CA4D48EB01}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EAC99638-71AD-443D-B0C8-E2CA4D48EB01}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

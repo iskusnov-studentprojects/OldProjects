@@ -1,0 +1,11 @@
+D:\Projects\Alg S4 L7\Alg S4 L7\bin\Debug\Alg S4 L7.exe.config
+D:\Projects\Alg S4 L7\Alg S4 L7\bin\Debug\Alg S4 L7.exe
+D:\Projects\Alg S4 L7\Alg S4 L7\bin\Debug\Alg S4 L7.pdb
+D:\Projects\Alg S4 L7\Alg S4 L7\bin\Debug\GraphVisualization.dll
+D:\Projects\Alg S4 L7\Alg S4 L7\bin\Debug\GraphVisualization.pdb
+D:\Projects\Alg S4 L7\Alg S4 L7\obj\Debug\Alg S4 L7.csprojResolveAssemblyReference.cache
+D:\Projects\Alg S4 L7\Alg S4 L7\obj\Debug\Alg_S4_L7.Form1.resources
+D:\Projects\Alg S4 L7\Alg S4 L7\obj\Debug\Alg_S4_L7.Properties.Resources.resources
+D:\Projects\Alg S4 L7\Alg S4 L7\obj\Debug\Alg S4 L7.csproj.GenerateResource.Cache
+D:\Projects\Alg S4 L7\Alg S4 L7\obj\Debug\Alg S4 L7.exe
+D:\Projects\Alg S4 L7\Alg S4 L7\obj\Debug\Alg S4 L7.pdb

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;PAPER_WIDTH&quot;:981,&quot;PAPER_HEIGHT&quot;:594,&quot;PAPER_SCROLL_LEFT&quot;:1976,&quot;PAPER_SCROLL_TOP&quot;:2211,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/pages&quot;,&quot;THEME&quot;:&quot;internetbanking&quot;}">
+ </head> 
+ <body> 
+  <vaadin-grid-layout style-name="grayBackground" size-full="true"> 
+   <row> 
+    <column> 
+     <vaadin-vertical-layout style-name="whiteBackground" size-auto="true" margin="true" _id="mainLayout"> 
+      <vaadin-horizontal-layout> 
+       <vaadin-label width="200px" plain-text="">
+         Логин 
+       </vaadin-label> 
+       <vaadin-text-field width="200px" _id="tfLogin"></vaadin-text-field> 
+      </vaadin-horizontal-layout> 
+      <vaadin-horizontal-layout> 
+       <vaadin-label width="200px" plain-text="">
+         Номер карты 
+       </vaadin-label> 
+       <vaadin-text-field width="200px" _id="tfCardNumber"></vaadin-text-field> 
+      </vaadin-horizontal-layout> 
+      <vaadin-horizontal-layout> 
+       <vaadin-label width="200px" plain-text="">
+         Имя 
+       </vaadin-label> 
+       <vaadin-text-field width="200px" _id="tfFirstName"></vaadin-text-field> 
+      </vaadin-horizontal-layout> 
+      <vaadin-horizontal-layout> 
+       <vaadin-label width="200px" plain-text="">
+         Фамилия 
+       </vaadin-label> 
+       <vaadin-text-field width="200px" _id="tfLastName"></vaadin-text-field> 
+      </vaadin-horizontal-layout> 
+      <vaadin-horizontal-layout> 
+       <vaadin-label width="200px" plain-text="">
+         Пароль 
+       </vaadin-label> 
+       <vaadin-password-field width="200px" height="37px" _id="tfPassword"></vaadin-password-field> 
+      </vaadin-horizontal-layout> 
+      <vaadin-horizontal-layout> 
+       <vaadin-label width="200px" plain-text="">
+         Повторите пароль 
+       </vaadin-label> 
+       <vaadin-password-field width="200px" _id="tfConfirmPassword"></vaadin-password-field> 
+      </vaadin-horizontal-layout> 
+      <vaadin-horizontal-layout> 
+       <vaadin-label width="200px" plain-text="">
+         Код подтверждения 
+       </vaadin-label> 
+       <vaadin-password-field width="100px" _id="tfConfirmCode"></vaadin-password-field> 
+       <vaadin-button width="100px" plain-text="" _id="bSendCode">
+         Выслать 
+       </vaadin-button> 
+      </vaadin-horizontal-layout> 
+      <vaadin-horizontal-layout :right=""> 
+       <vaadin-button width="100px" plain-text="" _id="bCancel">
+         Отмена 
+       </vaadin-button> 
+       <vaadin-button width="150px" plain-text="" _id="bRegistry" :right="">
+         Регистрация 
+       </vaadin-button> 
+      </vaadin-horizontal-layout> 
+     </vaadin-vertical-layout> 
+    </column> 
+   </row> 
+  </vaadin-grid-layout>  
+ </body>
+</html>

@@ -1,0 +1,27 @@
+﻿Сборка начата 07.06.2014 20:00:56.
+     1>Проект "C:\Users\домо\Desktop\OOPCoursework\OOPCoursework\OOPCoursework.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /TP /analyze- /errorReport:prompt "C:\Users\домо\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\домо\Desktop\OOPCoursework\Release\OOPCoursework.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\OOPCoursework.Form1.resources /ASSEMBLYRESOURCE:Release\OOPCoursework.Status.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\домо\Desktop\OOPCoursework\Release\OOPCoursework.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\app.res
+         Release\AssemblyInfo.obj
+         Release\Field.obj
+         Release\OOPCoursework.obj
+         Release\Planet.obj
+         Release\Rase.obj
+         Release\Regenship.obj
+         Release\Ship_radar.obj
+         Release\SpaceShip.obj
+         Release\Status.obj
+         Release\stdafx.obj
+         Release\Stealthship.obj
+         Release\Transportship.obj
+         Release\Warship.obj
+         "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         OOPCoursework.vcxproj -> C:\Users\домо\Desktop\OOPCoursework\Release\OOPCoursework.exe
+     1>Построение проекта "C:\Users\домо\Desktop\OOPCoursework\OOPCoursework\OOPCoursework.vcxproj" завершено (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:13.98

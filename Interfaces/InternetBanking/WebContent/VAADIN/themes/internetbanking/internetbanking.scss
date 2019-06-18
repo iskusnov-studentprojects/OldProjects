@@ -1,0 +1,204 @@
+// Global variable overrides. Must be declared before importing Valo.
+
+// Defines the plaintext font size, weight and family. Font size affects general component sizing.
+//$v-font-size: 16px;
+//$v-font-weight: 300;
+//$v-font-family: "Open Sans", sans-serif;
+
+// Defines the border used by all components.
+//$v-border: 1px solid (v-shade 0.7);
+//$v-border-radius: 4px;
+
+// Affects the color of some component elements, e.g Button, Panel title, etc
+//$v-background-color: hsl(210, 0%, 98%);
+// Affects the color of content areas, e.g  Panel and Window content, TextField input etc
+//$v-app-background-color: $v-background-color;
+
+// Affects the visual appearance of all components
+//$v-gradient: v-linear 8%;
+//$v-bevel-depth: 30%;
+//$v-shadow-opacity: 5%;
+
+// Defines colors for indicating status (focus, success, failure)
+//$v-focus-color: valo-focus-color(); // Calculates a suitable color automatically
+//$v-friendly-color: #2c9720;
+//$v-error-indicator-color: #ed473b;
+
+// For more information, see: https://vaadin.com/book/-/page/themes.valo.html
+// Example variants can be copy/pasted from https://vaadin.com/wiki/-/wiki/Main/Valo+Examples
+
+@import "../valo/valo.scss";
+
+@mixin internetbanking {
+  @include valo;
+  
+  // Insert your own theme rules here
+  .grayBackground{
+  	background-color: gray;
+  }
+  .whiteBackground{
+  	background-color: white;
+  }
+  
+  .blueBackground{
+  	background-color: #7BEAF9;
+  }
+  
+  .buttonColor{
+  	background-color: #05AAC2;
+  	&.selected{
+  		background-color: white;
+  	}
+  }
+  
+  .root-layout.navigation-template-vaadin {
+	$root-background-color: #05AAC2;
+	$main-color: black;
+	$menu-color: black;
+	$header-label-font-size: 1.618em;
+	background-color: $root-background-color;
+	
+	.v-nativebutton{
+		background: none;
+		border: none;
+		box-shadow: none;
+		
+		&:hover{
+			cursor: pointer;
+		}
+	}
+	
+	.scroll-panel{
+		background-color: $root-background-color;
+        border: none;
+        border-radius: 0;		
+	}
+	
+	.header-bar {
+	
+		background-color: $root-background-color;
+		width: 100px;
+		
+		> .menu-button{
+			position: relative;
+			color: $main-color;
+			height: 90px;
+			
+			&.selected{
+				background-color: white; 
+			
+				.v-nativebutton-caption {
+                    color: #1A1314;
+                }
+			}
+			
+			.v-nativebutton-caption{
+                font-size: .7em;
+                color: #E9E0E0;
+                text-transform: uppercase;
+				position: absolute;
+				bottom: 8px;
+				text-align: center;				
+				left: 0;
+				right: 0;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			.v-icon{
+				position: absolute;
+				font-size: 35px;
+				margin-left: auto;
+				margin-right: auto;
+				top: 10px;
+				left: 0;
+				right: 0;
+			}
+		}
+	}
+	
+	.buttonStyle{
+		background: #67C6FA;
+		float: right;
+		border: none;
+		padding: 10px 5px 5px 10px;
+	}
+	
+	.labelStyle{
+		float: right;
+		padding: 10px 5px 10px 5px;
+	}
+	
+	.dashboard-layout{
+		padding: 60px 60px 0 60px;
+	}
+    
+	.dashboard-item{
+		background-color: #f6f3f3;
+		border: 1px solid white;
+		margin: 0 30px 30px 0px;
+		padding: 15px;
+		
+		> .statistics-label{
+			margin-top: 15px;
+			
+			.statistics-value{
+				float: right;
+				font-weight: bold;
+			}
+		}
+	}
+	
+	&[width-range~="321px-768px"]{
+		.dashboard-layout{
+			padding: 10px;
+		}
+		
+		.dashboard-item{
+			width: 100% !important;
+			min-width: 321px;
+			margin: 0;
+		}
+		
+		.header-bar{
+			width: 60px;
+			
+			> .menu-button{
+			
+				height: 50px;
+			
+				> .v-nativebutton-caption{
+					visibility: hidden;
+				}
+				
+				> .v-icon{
+					top: 0;
+				}
+			}
+		}
+	}
+}
+
+.navigation-template-vaadin[width-range~="321px-768px"]{
+	visibility: visible;
+}
+
+	.transactionPage{
+		.v-label{
+			font-size: 30px;
+		}
+		.v-textfield{
+			margin: 5px 50px 10px 0px;
+		}
+	}
+	
+	.cardsPage{
+		.middleFont{
+			font-size: 24px;
+		}
+		
+		.lessFont{
+			font-size: 8pt;
+		}
+	}
+}

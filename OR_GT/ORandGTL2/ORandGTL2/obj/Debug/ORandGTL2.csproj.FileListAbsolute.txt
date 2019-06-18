@@ -1,0 +1,21 @@
+C:\Users\Sergey\Google Диск\Projects\OR&GT\ORandGTL2\ORandGTL2\bin\Debug\ORandGTL2.exe.config
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGTL2 (1)\ORandGTL2\bin\Debug\ORandGTL2.exe.config
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGTL2 (1)\ORandGTL2\bin\Debug\ORandGTL2.exe
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGTL2 (1)\ORandGTL2\bin\Debug\ORandGTL2.pdb
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGTL2 (1)\ORandGTL2\obj\Debug\ORandGTL2.csprojResolveAssemblyReference.cache
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGTL2 (1)\ORandGTL2\obj\Debug\ORandGTL2.Form1.resources
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGTL2 (1)\ORandGTL2\obj\Debug\ORandGTL2.Graphic.resources
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGTL2 (1)\ORandGTL2\obj\Debug\ORandGTL2.Properties.Resources.resources
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGTL2 (1)\ORandGTL2\obj\Debug\ORandGTL2.csproj.GenerateResource.Cache
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGTL2 (1)\ORandGTL2\obj\Debug\ORandGTL2.exe
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGTL2 (1)\ORandGTL2\obj\Debug\ORandGTL2.pdb
+D:\GoogleDrive\Projects\OR&GT\ORandGTL2\ORandGTL2\bin\Debug\ORandGTL2.exe.config
+D:\GoogleDrive\Projects\OR&GT\ORandGTL2\ORandGTL2\obj\Debug\ORandGTL2.exe
+D:\GoogleDrive\Projects\OR&GT\ORandGTL2\ORandGTL2\obj\Debug\ORandGTL2.pdb
+D:\GoogleDrive\Projects\OR&GT\ORandGTL2\ORandGTL2\bin\Debug\ORandGTL2.exe
+D:\GoogleDrive\Projects\OR&GT\ORandGTL2\ORandGTL2\bin\Debug\ORandGTL2.pdb
+D:\GoogleDrive\Projects\OR&GT\ORandGTL2\ORandGTL2\obj\Debug\ORandGTL2.csprojResolveAssemblyReference.cache
+D:\GoogleDrive\Projects\OR&GT\ORandGTL2\ORandGTL2\obj\Debug\ORandGTL2.Form1.resources
+D:\GoogleDrive\Projects\OR&GT\ORandGTL2\ORandGTL2\obj\Debug\ORandGTL2.Graphic.resources
+D:\GoogleDrive\Projects\OR&GT\ORandGTL2\ORandGTL2\obj\Debug\ORandGTL2.Properties.Resources.resources
+D:\GoogleDrive\Projects\OR&GT\ORandGTL2\ORandGTL2\obj\Debug\ORandGTL2.csproj.GenerateResource.Cache

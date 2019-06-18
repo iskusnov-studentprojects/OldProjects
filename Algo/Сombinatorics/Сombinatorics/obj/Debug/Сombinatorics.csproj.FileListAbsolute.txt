@@ -1,0 +1,6 @@
+D:\Projects\Сombinatorics\Сombinatorics\bin\Debug\Сombinatorics.exe.config
+D:\Projects\Сombinatorics\Сombinatorics\bin\Debug\Сombinatorics.exe
+D:\Projects\Сombinatorics\Сombinatorics\bin\Debug\Сombinatorics.pdb
+D:\Projects\Сombinatorics\Сombinatorics\obj\Debug\Сombinatorics.csprojResolveAssemblyReference.cache
+D:\Projects\Сombinatorics\Сombinatorics\obj\Debug\Сombinatorics.exe
+D:\Projects\Сombinatorics\Сombinatorics\obj\Debug\Сombinatorics.pdb

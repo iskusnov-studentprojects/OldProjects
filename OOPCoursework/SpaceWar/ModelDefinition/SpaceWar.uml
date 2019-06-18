@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="9f58dd0c-128c-443f-8fdc-35252550c643"
+  name="SpaceWar" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="1fabc30f-bf97-4835-a148-8a9bc3de5b95"
+        name="Rootclass"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8489f0d3-aee2-449a-bf9e-100292bac4da"
+        name="SpaceShip"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="337eaad5-c74d-4f48-b329-28049b122ac6">
+            <interfaceMoniker
+              Id="d307cfda-811f-4edf-a68d-36072a85b4e3"
+              LastKnownName="ITactics"
+              LastKnownLocation="SpaceWar.uml" />
+          </interfaceRealization>
+          <interfaceRealization
+            Id="89710d64-e59a-4ae2-a80a-ee0da0fa3158">
+            <interfaceMoniker
+              Id="2afd1cfd-5813-4d21-ad0b-e6a1d7fc0b53"
+              LastKnownName="IPic"
+              LastKnownLocation="SpaceWar.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="f3641faf-731a-46ef-9962-0ed4659bbd6f"
+            isSubstitutable="false">
+            <classMoniker
+              Id="1fabc30f-bf97-4835-a148-8a9bc3de5b95"
+              LastKnownName="Rootclass"
+              LastKnownLocation="SpaceWar.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f33da9d6-8912-4388-9e24-ec4f51f8488b"
+        name="Rase"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="e1c5df01-9f00-40b0-9b37-55901f0546df">
+            <classMoniker
+              Id="1fabc30f-bf97-4835-a148-8a9bc3de5b95"
+              LastKnownName="Rootclass"
+              LastKnownLocation="SpaceWar.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5ffa1df4-e00f-4794-a813-59fde16dc714"
+        name="Wasrship"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="f374b2ee-4434-42d7-8402-0c9a09c558b5"
+            isSubstitutable="false">
+            <classMoniker
+              Id="8489f0d3-aee2-449a-bf9e-100292bac4da"
+              LastKnownName="SpaceShip"
+              LastKnownLocation="SpaceWar.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4155c3c8-97bf-47f7-bcb8-97c274dfec1e"
+        name="Regenship"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="8a8bb0a2-18bc-4ac2-a725-0d8a1130b5cd">
+            <interfaceMoniker
+              Id="236c643b-b10b-4b70-8aef-6685f02e0d87"
+              LastKnownName="IRegeneration"
+              LastKnownLocation="SpaceWar.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="061f80f2-675c-42d4-a325-8bad14399660"
+            isSubstitutable="false">
+            <classMoniker
+              Id="5ffa1df4-e00f-4794-a813-59fde16dc714"
+              LastKnownName="Wasrship"
+              LastKnownLocation="SpaceWar.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5917b665-d73a-4e77-a9c7-cf0e04f786f1"
+        name="Planet"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="1773a55a-3b89-4069-a841-faba6323089c">
+            <interfaceMoniker
+              Id="2afd1cfd-5813-4d21-ad0b-e6a1d7fc0b53"
+              LastKnownName="IPic"
+              LastKnownLocation="SpaceWar.uml" />
+          </interfaceRealization>
+          <interfaceRealization
+            Id="c7cc0fe8-b7ef-485c-9bfb-3842f9405eec">
+            <interfaceMoniker
+              Id="e17df2a3-df5f-4825-b30c-be7aeedd814a"
+              LastKnownName="ICreation"
+              LastKnownLocation="SpaceWar.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="69243427-aed1-4398-a8f3-b754a18b681a"
+            isSubstitutable="false">
+            <classMoniker
+              Id="1fabc30f-bf97-4835-a148-8a9bc3de5b95"
+              LastKnownName="Rootclass"
+              LastKnownLocation="SpaceWar.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="95e9bb85-11a6-4427-aa3f-4c969db0febd"
+        name="Transportship"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="7c2a0993-32e0-4273-b5b3-f0e2f3b183a3">
+            <interfaceMoniker
+              Id="d340cb35-2bea-40e5-b6d3-30bf90cee9f8"
+              LastKnownName="ITransport"
+              LastKnownLocation="SpaceWar.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="7e27b44e-96b5-4f39-b182-fe720a319de1"
+            isSubstitutable="false">
+            <classMoniker
+              Id="8489f0d3-aee2-449a-bf9e-100292bac4da"
+              LastKnownName="SpaceShip"
+              LastKnownLocation="SpaceWar.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="114facb1-bd9f-426a-89e4-bedc60b0b7bc"
+        name="Ship_radar"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="3749d6f8-1768-46ef-b05a-a9c7a3547457"
+            isSubstitutable="false">
+            <classMoniker
+              Id="8489f0d3-aee2-449a-bf9e-100292bac4da"
+              LastKnownName="SpaceShip"
+              LastKnownLocation="SpaceWar.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="aa106862-ec23-4df3-b1f4-77cc7ab215d9"
+        name="Stealthship"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="41f6c7cd-0a40-482e-9dfc-a01f2f0b938e">
+            <interfaceMoniker
+              Id="81c70385-f905-4c89-83b7-0a40e17e30f1"
+              LastKnownName="IStealth"
+              LastKnownLocation="SpaceWar.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization
+            Id="2e7d57b4-29e7-4baf-a94f-dd79ae26593e"
+            isSubstitutable="false">
+            <classMoniker
+              Id="5ffa1df4-e00f-4794-a813-59fde16dc714"
+              LastKnownName="Wasrship"
+              LastKnownLocation="SpaceWar.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="2afd1cfd-5813-4d21-ad0b-e6a1d7fc0b53"
+        name="IPic"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="236c643b-b10b-4b70-8aef-6685f02e0d87"
+        name="IRegeneration"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="d340cb35-2bea-40e5-b6d3-30bf90cee9f8"
+        name="ITransport"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="81c70385-f905-4c89-83b7-0a40e17e30f1"
+        name="IStealth"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="d307cfda-811f-4edf-a68d-36072a85b4e3"
+        name="ITactics"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="431d0277-3685-4a6a-8ecb-92d9207a5ff0"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="e17df2a3-df5f-4825-b30c-be7aeedd814a"
+        name="ICreation"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

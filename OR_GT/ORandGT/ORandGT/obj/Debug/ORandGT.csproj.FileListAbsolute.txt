@@ -1,0 +1,16 @@
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGT\ORandGT\bin\Debug\ORandGT.exe.config
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGT\ORandGT\bin\Debug\ORandGT.exe
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGT\ORandGT\bin\Debug\ORandGT.pdb
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGT\ORandGT\obj\Debug\ORandGT.csprojResolveAssemblyReference.cache
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGT\ORandGT\obj\Debug\ORandGT.Form1.resources
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGT\ORandGT\obj\Debug\ORandGT.Properties.Resources.resources
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGT\ORandGT\obj\Debug\ORandGT.csproj.GenerateResource.Cache
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGT\ORandGT\obj\Debug\ORandGT.exe
+C:\Users\Work\Google Диск\Projects\OR&GT\ORandGT\ORandGT\obj\Debug\ORandGT.pdb
+D:\GoogleDrive\Projects\OR&GT\ORandGT\ORandGT\bin\Debug\ORandGT.exe.config
+D:\GoogleDrive\Projects\OR&GT\ORandGT\ORandGT\obj\Debug\ORandGT.exe
+D:\GoogleDrive\Projects\OR&GT\ORandGT\ORandGT\obj\Debug\ORandGT.pdb
+D:\GoogleDrive\Projects\OR&GT\ORandGT\ORandGT\obj\Debug\ORandGT.csprojResolveAssemblyReference.cache
+D:\GoogleDrive\Projects\OR&GT\ORandGT\ORandGT\obj\Debug\ORandGT.Form1.resources
+D:\GoogleDrive\Projects\OR&GT\ORandGT\ORandGT\obj\Debug\ORandGT.Properties.Resources.resources
+D:\GoogleDrive\Projects\OR&GT\ORandGT\ORandGT\obj\Debug\ORandGT.csproj.GenerateResource.Cache

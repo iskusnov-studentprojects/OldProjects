@@ -1,0 +1,6 @@
+D:\Projects\LargestIncreasingSequece\LargestIncreasingSequece\bin\Debug\LargestIncreasingSequece.exe.config
+D:\Projects\LargestIncreasingSequece\LargestIncreasingSequece\bin\Debug\LargestIncreasingSequece.exe
+D:\Projects\LargestIncreasingSequece\LargestIncreasingSequece\bin\Debug\LargestIncreasingSequece.pdb
+D:\Projects\LargestIncreasingSequece\LargestIncreasingSequece\obj\Debug\LargestIncreasingSequece.csprojResolveAssemblyReference.cache
+D:\Projects\LargestIncreasingSequece\LargestIncreasingSequece\obj\Debug\LargestIncreasingSequece.exe
+D:\Projects\LargestIncreasingSequece\LargestIncreasingSequece\obj\Debug\LargestIncreasingSequece.pdb

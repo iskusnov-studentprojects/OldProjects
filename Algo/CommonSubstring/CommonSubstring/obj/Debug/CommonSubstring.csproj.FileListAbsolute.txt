@@ -1,0 +1,12 @@
+c:\users\домо\documents\visual studio 2012\Projects\CommonSubstring\CommonSubstring\bin\Debug\CommonSubstring.exe.config
+c:\users\домо\documents\visual studio 2012\Projects\CommonSubstring\CommonSubstring\bin\Debug\CommonSubstring.exe
+c:\users\домо\documents\visual studio 2012\Projects\CommonSubstring\CommonSubstring\bin\Debug\CommonSubstring.pdb
+c:\users\домо\documents\visual studio 2012\Projects\CommonSubstring\CommonSubstring\obj\Debug\CommonSubstring.csprojResolveAssemblyReference.cache
+c:\users\домо\documents\visual studio 2012\Projects\CommonSubstring\CommonSubstring\obj\Debug\CommonSubstring.exe
+c:\users\домо\documents\visual studio 2012\Projects\CommonSubstring\CommonSubstring\obj\Debug\CommonSubstring.pdb
+D:\Projects\CommonSubstring\CommonSubstring\bin\Debug\CommonSubstring.exe.config
+D:\Projects\CommonSubstring\CommonSubstring\obj\Debug\CommonSubstring.exe
+D:\Projects\CommonSubstring\CommonSubstring\obj\Debug\CommonSubstring.pdb
+D:\Projects\CommonSubstring\CommonSubstring\bin\Debug\CommonSubstring.exe
+D:\Projects\CommonSubstring\CommonSubstring\bin\Debug\CommonSubstring.pdb
+D:\Projects\CommonSubstring\CommonSubstring\obj\Debug\CommonSubstring.csprojResolveAssemblyReference.cache

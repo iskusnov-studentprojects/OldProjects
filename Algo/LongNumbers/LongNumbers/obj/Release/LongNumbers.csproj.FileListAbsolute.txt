@@ -1,0 +1,6 @@
+D:\Projects\LongNumbers\LongNumbers\bin\Release\LongNumbers.exe.config
+D:\Projects\LongNumbers\LongNumbers\bin\Release\LongNumbers.exe
+D:\Projects\LongNumbers\LongNumbers\bin\Release\LongNumbers.pdb
+D:\Projects\LongNumbers\LongNumbers\obj\Release\LongNumbers.exe
+D:\Projects\LongNumbers\LongNumbers\obj\Release\LongNumbers.pdb
+D:\Projects\LongNumbers\LongNumbers\obj\Release\LongNumbers.csprojResolveAssemblyReference.cache

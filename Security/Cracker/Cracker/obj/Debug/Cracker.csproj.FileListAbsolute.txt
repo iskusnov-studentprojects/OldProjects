@@ -1,0 +1,18 @@
+C:\Users\Work\Google Диск\Projects\Security\Cracker\Cracker\bin\Debug\Cracker.exe.config
+C:\Users\Work\Google Диск\Projects\Security\Cracker\Cracker\bin\Debug\Cracker.exe
+C:\Users\Work\Google Диск\Projects\Security\Cracker\Cracker\bin\Debug\Cracker.pdb
+C:\Users\Work\Google Диск\Projects\Security\Cracker\Cracker\obj\Debug\Cracker.csprojResolveAssemblyReference.cache
+C:\Users\Work\Google Диск\Projects\Security\Cracker\Cracker\obj\Debug\Cracker.csproj.GenerateResource.Cache
+C:\Users\Work\Google Диск\Projects\Security\Cracker\Cracker\obj\Debug\Cracker.exe
+C:\Users\Work\Google Диск\Projects\Security\Cracker\Cracker\obj\Debug\Cracker.pdb
+C:\Users\Work\Google Диск\Projects\Security\Cracker\Cracker\obj\Debug\Cracker.ProjectInstaller.resources
+C:\Users\Work\Google Диск\Projects\Security\Cracker\Cracker\obj\Debug\Cracker.OriginService.resources
+D:\GoogleDrive\Projects\Security\Cracker\Cracker\bin\Debug\Cracker.exe.config
+D:\GoogleDrive\Projects\Security\Cracker\Cracker\obj\Debug\Cracker.exe
+D:\GoogleDrive\Projects\Security\Cracker\Cracker\obj\Debug\Cracker.pdb
+D:\GoogleDrive\Projects\Security\Cracker\Cracker\bin\Debug\Cracker.exe
+D:\GoogleDrive\Projects\Security\Cracker\Cracker\obj\Debug\Cracker.ProjectInstaller.resources
+D:\GoogleDrive\Projects\Security\Cracker\Cracker\obj\Debug\Cracker.OriginService.resources
+D:\GoogleDrive\Projects\Security\Cracker\Cracker\obj\Debug\Cracker.csproj.GenerateResource.Cache
+D:\GoogleDrive\Projects\Security\Cracker\Cracker\bin\Debug\Cracker.pdb
+D:\GoogleDrive\Projects\Security\Cracker\Cracker\obj\Debug\Cracker.csprojResolveAssemblyReference.cache

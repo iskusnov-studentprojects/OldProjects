@@ -1,0 +1,9 @@
+D:\Projects\OS L11\OS L11\bin\Debug\OS L11.exe.config
+D:\Projects\OS L11\OS L11\bin\Debug\OS L11.exe
+D:\Projects\OS L11\OS L11\bin\Debug\OS L11.pdb
+D:\Projects\OS L11\OS L11\obj\Debug\OS L11.csprojResolveAssemblyReference.cache
+D:\Projects\OS L11\OS L11\obj\Debug\OS_L11.Form1.resources
+D:\Projects\OS L11\OS L11\obj\Debug\OS_L11.Properties.Resources.resources
+D:\Projects\OS L11\OS L11\obj\Debug\OS L11.csproj.GenerateResource.Cache
+D:\Projects\OS L11\OS L11\obj\Debug\OS L11.exe
+D:\Projects\OS L11\OS L11\obj\Debug\OS L11.pdb

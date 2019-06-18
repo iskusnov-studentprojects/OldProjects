@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#keyPressed" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="visual.Controller">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" minWidth="10.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="1.7976931348623157E308" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="-Infinity" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Canvas fx:id="canvas" height="580.0" width="600.0">
+         <GridPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </GridPane.margin>
+      </Canvas>
+      <VBox prefWidth="150.0" GridPane.columnIndex="1">
+         <children>
+            <Label text="Поворот вокруг Ox" />
+            <HBox>
+               <children>
+                  <Button fx:id="rotateOXButtonMinus" mnemonicParsing="false" onAction="#rotateOXButtonMinus_Action" text="&lt;">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="rotateOXButtonPlus" mnemonicParsing="false" onAction="#rotateOXButtonPlus_Action" text="&gt;">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <Label text="Поворот вокруг Oy" />
+            <HBox>
+               <children>
+                  <Button fx:id="rotateOYButtonMinus" mnemonicParsing="false" onAction="#rotateOYButtonMinus_Action" text="&lt;">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="rotateOYButtonPlus" mnemonicParsing="false" onAction="#rotateOYButtonPlus_Action" text="&gt;">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <Label text="Поворот вокруг Oz" />
+            <HBox>
+               <children>
+                  <Button fx:id="rotateOZButtonMinus" mnemonicParsing="false" onAction="#rotateOZButtonMinus_Action" text="&lt;">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="rotateOZButtonPlus" mnemonicParsing="false" onAction="#rotateOZButtonPlus_Action" text="&gt;">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <Label text="Перемещение вдоль Ox" />
+            <HBox>
+               <children>
+                  <Button fx:id="moveOXButtonMinus" mnemonicParsing="false" onAction="#moveOXButtonMinus_Action" text="&lt;">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="moveOXButtonPlus" mnemonicParsing="false" onAction="#moveOXButtonPlus_Action" text="&gt;">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <Label text="Перемещение вдоль Oy" />
+            <HBox>
+               <children>
+                  <Button fx:id="moveOYButtonMinus" mnemonicParsing="false" onAction="#moveOYButtonMinus_Action" text="&lt;">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="moveOYButtonPlus" mnemonicParsing="false" onAction="#moveOYButtonPlus_Action" text="&gt;">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <Label text="Перемещение вдоль Oz" />
+            <HBox>
+               <children>
+                  <Button fx:id="moveOZButtonMinus" mnemonicParsing="false" onAction="#moveOZButtonMinus_Action" text="&lt;">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="moveOZButtonPlus" mnemonicParsing="false" onAction="#moveOZButtonPlus_Action" text="&gt;">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <Label text="Отражение по Ox" />
+            <HBox>
+               <children>
+                  <Button fx:id="reflectionOXButton" mnemonicParsing="false" onAction="#reflectionOXButton_Action" text="Отразить">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <Label text="Отражение по Oy" />
+            <HBox>
+               <children>
+                  <Button fx:id="reflectionOYButton" mnemonicParsing="false" onAction="#reflectionOYButton_Action" text="Отразить">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <Label text="Отражение по Oz" />
+            <HBox>
+               <children>
+                  <Button fx:id="reflectionOZButton" mnemonicParsing="false" onAction="#reflectionOZButtons_Action" text="Отразить">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <Label text="Масштабирование" />
+            <HBox>
+               <children>
+                  <Button fx:id="zoomButtonMinus" mnemonicParsing="false" onAction="#zoomButtonMinus_Action" text="&lt;">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="zoomButtonPlus" mnemonicParsing="false" onAction="#zoomButtonPlus_Action" text="&gt;">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <Label text="Прыжок" />
+            <TextField fx:id="heightTextField" />
+            <HBox>
+               <children>
+                  <Button fx:id="startJumping" mnemonicParsing="false" onAction="#startJumping_Action" text="Старт">
+                     <HBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="stopJumping" mnemonicParsing="false" onAction="#stopJumping_Action" text="Стоп">
+                     <HBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</GridPane>

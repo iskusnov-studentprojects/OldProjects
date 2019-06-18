@@ -1,0 +1,12 @@
+D:\Projects\SubstringSearch\SubstringSearch\bin\Debug\SubstringSearch.exe.config
+D:\Projects\SubstringSearch\SubstringSearch\bin\Debug\SubstringSearch.exe
+D:\Projects\SubstringSearch\SubstringSearch\bin\Debug\SubstringSearch.pdb
+D:\Projects\SubstringSearch\SubstringSearch\obj\Debug\SubstringSearch.csprojResolveAssemblyReference.cache
+D:\Projects\SubstringSearch\SubstringSearch\obj\Debug\SubstringSearch.exe
+D:\Projects\SubstringSearch\SubstringSearch\obj\Debug\SubstringSearch.pdb
+\\SERGEY-PC\Projects\SubstringSearch\SubstringSearch\bin\Debug\SubstringSearch.exe.config
+\\SERGEY-PC\Projects\SubstringSearch\SubstringSearch\obj\Debug\SubstringSearch.exe
+\\SERGEY-PC\Projects\SubstringSearch\SubstringSearch\obj\Debug\SubstringSearch.pdb
+\\SERGEY-PC\Projects\SubstringSearch\SubstringSearch\bin\Debug\SubstringSearch.exe
+\\SERGEY-PC\Projects\SubstringSearch\SubstringSearch\bin\Debug\SubstringSearch.pdb
+\\SERGEY-PC\Projects\SubstringSearch\SubstringSearch\obj\Debug\SubstringSearch.csprojResolveAssemblyReference.cache

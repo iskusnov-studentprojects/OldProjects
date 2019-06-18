@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Журнал создания кода/преобразования текста">
+  <MessageClass Name="Message" Label="Сообщение" Option="Показывать информационные сообщения" />
+  <MessageClass Name="Warning" Label="Предупреждение" Option="Показывать предупреждения" />
+  <MessageClass Name="Error" Label="Ошибка" Option="Показывать ошибки" />
+  <MessageClass Name="Property" Label="Свойство" Option="Показывать метаданные" />
+  <MessageClass Name="Diagnostic" Label="Сообщение" Option="Показывать диагностические сообщения" />
+  <Message Timestamp="2013-12-29T21:05:50" Importance="High" Text="Запущено создание кода или преобразование текста." />
+  <Error Timestamp="2013-12-29T21:05:50" Importance="High" Text="Не найдены шаблоны для обработки.  Настройте шаблоны, нажав кнопку &quot;Настроить параметры создания кода по умолчанию...&quot; в меню &quot;Архитектура&quot;, или измените набор выбранных объектов, для которых запускается создание кода." />
+  <Message Timestamp="2013-12-29T21:05:50" Importance="Diagnostic" Text="Выбрано 17 элементов, не связанных с шаблоном." />
+  <Warning Timestamp="2013-12-29T21:05:50" Importance="Medium" Text="&quot;SpaceWar::Rootclass&quot; -  (Class): нет привязанных шаблонов." />
+  <Message Timestamp="2013-12-29T21:05:50" Importance="Diagnostic" Text="&quot;SpaceWar::&quot; -  (Association): нет привязанных шаблонов." />
+  <Warning Timestamp="2013-12-29T21:05:50" Importance="Medium" Text="&quot;SpaceWar::Rase&quot; -  (Class): нет привязанных шаблонов." />
+  <Warning Timestamp="2013-12-29T21:05:50" Importance="Medium" Text="&quot;SpaceWar::SpaceShip&quot; -  (Class): нет привязанных шаблонов." />
+  <Message Timestamp="2013-12-29T21:05:50" Importance="Diagnostic" Text="&quot;546714a1-b712-4dd3-86ba-71cb8715e8e2&quot; -  (Generalization): нет привязанных шаблонов." />
+  <Message Timestamp="2013-12-29T21:05:50" Importance="Diagnostic" Text="&quot;3d365728-a5c2-4847-9693-e9681196efbf&quot; -  (Generalization): нет привязанных шаблонов." />
+  <Warning Timestamp="2013-12-29T21:05:50" Importance="Medium" Text="&quot;SpaceWar::Planet&quot; -  (Class): нет привязанных шаблонов." />
+  <Message Timestamp="2013-12-29T21:05:50" Importance="Diagnostic" Text="&quot;30ed13a5-23d5-49cd-a792-04b7a9d345ab&quot; -  (Generalization): нет привязанных шаблонов." />
+  <Message Timestamp="2013-12-29T21:05:50" Importance="Diagnostic" Text="&quot;f9fe4da4-49bf-4b0c-adbc-8b28d491eff1&quot; -  (Generalization): нет привязанных шаблонов." />
+  <Message Timestamp="2013-12-29T21:05:50" Importance="Diagnostic" Text="&quot;a1d511f4-7ddf-496f-8719-a491a8b0f677&quot; -  (Generalization): нет привязанных шаблонов." />
+  <Warning Timestamp="2013-12-29T21:05:50" Importance="Medium" Text="&quot;SpaceWar::Wasrship&quot; -  (Class): нет привязанных шаблонов." />
+  <Warning Timestamp="2013-12-29T21:05:50" Importance="Medium" Text="&quot;SpaceWar::Ship_radar&quot; -  (Class): нет привязанных шаблонов." />
+  <Warning Timestamp="2013-12-29T21:05:50" Importance="Medium" Text="&quot;SpaceWar::Transportship&quot; -  (Class): нет привязанных шаблонов." />
+  <Warning Timestamp="2013-12-29T21:05:50" Importance="Medium" Text="&quot;SpaceWar::Stealthship&quot; -  (Class): нет привязанных шаблонов." />
+  <Message Timestamp="2013-12-29T21:05:50" Importance="Diagnostic" Text="&quot;79203ab6-620e-4cd5-93e3-a196e56d2937&quot; -  (Generalization): нет привязанных шаблонов." />
+  <Message Timestamp="2013-12-29T21:05:50" Importance="Diagnostic" Text="&quot;20b356c2-cf1f-4b43-bfcb-2a81ad1206a5&quot; -  (Generalization): нет привязанных шаблонов." />
+  <Warning Timestamp="2013-12-29T21:05:50" Importance="Medium" Text="&quot;SpaceWar::Regenship&quot; -  (Class): нет привязанных шаблонов." />
+  <Message Timestamp="2013-12-29T21:05:50" Importance="High" Text="Создание кода завершено. Ошибок: 1. Предупреждений: 9." />
+</Log>

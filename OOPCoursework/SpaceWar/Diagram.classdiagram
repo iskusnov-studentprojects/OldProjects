@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="11050c10-9279-40ec-93c1-e10fc8b82d18" name="Diagram" linkedPackageId="71dfcbd8-b9d6-435e-99b8-62ff6ba3a462" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="6a24fb7a-d60e-4ba9-93bb-b5cf4bfc4512">
+      <profileInstance Id="dbd77983-43c6-4126-a69f-1809a8f53536" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="42d63787-a9dd-4377-a72a-338696121957">
+      <profileInstance Id="63f9e0f1-df46-42cf-9668-2e7eaac7b704" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4f756b4a-0bd9-46b3-add4-a419aa7f019c" name="Rootclass" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1fabc30f-bf97-4835-a148-8a9bc3de5b95" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="60016f7f-f017-48d6-9123-97f1ddc470d7" name="SpaceShip" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8489f0d3-aee2-449a-bf9e-100292bac4da" />
+        <suppliersInternal>
+          <interfaceRealization Id="23a4f3e2-3c38-4c66-a4aa-f6cb1fe6ccfc">
+            <interfaceMoniker Id="3663eaea-7e53-4c79-8689-367a2588041b" LastKnownName="ITactics" />
+            <elementDefinition Id="337eaad5-c74d-4f48-b329-28049b122ac6" />
+          </interfaceRealization>
+          <interfaceRealization Id="3fc8bd35-548b-4c87-bd75-9b42c6b6926f">
+            <interfaceMoniker Id="19a838b2-bc4f-4953-b57e-447b6c71b760" LastKnownName="IPic" />
+            <elementDefinition Id="89710d64-e59a-4ae2-a80a-ee0da0fa3158" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="20104696-3ffa-4f32-88ae-2ea7252c5d86" isSubstitutable="false">
+            <classMoniker Id="4f756b4a-0bd9-46b3-add4-a419aa7f019c" LastKnownName="Rootclass" />
+            <elementDefinition Id="f3641faf-731a-46ef-9962-0ed4659bbd6f" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a606ed96-88c6-4bdc-98ca-0949e28a51ba" name="Rase" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f33da9d6-8912-4388-9e24-ec4f51f8488b" />
+        <suppliersInternal>
+          <dependency Id="5cf6a4bd-6c64-4a43-a16e-f216b54622cc">
+            <classMoniker Id="4f756b4a-0bd9-46b3-add4-a419aa7f019c" LastKnownName="Rootclass" />
+            <elementDefinition Id="e1c5df01-9f00-40b0-9b37-55901f0546df" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="21c63dd2-730b-4286-a8a3-b4c13c8bf4bb" name="Wasrship" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5ffa1df4-e00f-4794-a813-59fde16dc714" />
+        <generalsInternal>
+          <generalization Id="94afe9c7-5a46-4634-b09d-dff81d57456a" isSubstitutable="false">
+            <classMoniker Id="60016f7f-f017-48d6-9123-97f1ddc470d7" LastKnownName="SpaceShip" />
+            <elementDefinition Id="f374b2ee-4434-42d7-8402-0c9a09c558b5" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="80bd727f-7b44-4317-bd73-f1efa343c325" name="Regenship" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4155c3c8-97bf-47f7-bcb8-97c274dfec1e" />
+        <suppliersInternal>
+          <interfaceRealization Id="4e3edfc7-f43a-4482-9093-d654fd0c2d78">
+            <interfaceMoniker Id="08e91a42-0fe9-44a6-bd54-214ef6105a9b" LastKnownName="IRegeneration" />
+            <elementDefinition Id="8a8bb0a2-18bc-4ac2-a725-0d8a1130b5cd" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="895e8ee3-a332-4a6a-a18b-e59cabb4cddf" isSubstitutable="false">
+            <classMoniker Id="21c63dd2-730b-4286-a8a3-b4c13c8bf4bb" LastKnownName="Wasrship" />
+            <elementDefinition Id="061f80f2-675c-42d4-a325-8bad14399660" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d960a9a0-5942-49b3-878a-43bf03621e6d" name="Planet" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5917b665-d73a-4e77-a9c7-cf0e04f786f1" />
+        <suppliersInternal>
+          <interfaceRealization Id="b512d266-3bb3-4d0f-8ecd-23bd223bfeeb">
+            <interfaceMoniker Id="19a838b2-bc4f-4953-b57e-447b6c71b760" LastKnownName="IPic" />
+            <elementDefinition Id="1773a55a-3b89-4069-a841-faba6323089c" />
+          </interfaceRealization>
+          <interfaceRealization Id="d7d70c06-e0ad-4587-972d-4272a94d9c55">
+            <interfaceMoniker Id="2f49a3dd-b0e3-40c1-92ec-d69ddfe305ce" LastKnownName="ICreation" />
+            <elementDefinition Id="c7cc0fe8-b7ef-485c-9bfb-3842f9405eec" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="d405674c-e693-444d-b774-c0a247b7b9c5" isSubstitutable="false">
+            <classMoniker Id="4f756b4a-0bd9-46b3-add4-a419aa7f019c" LastKnownName="Rootclass" />
+            <elementDefinition Id="69243427-aed1-4398-a8f3-b754a18b681a" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bed4966c-5eef-4bd0-b4a5-f4474f7e7db2" name="Transportship" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="95e9bb85-11a6-4427-aa3f-4c969db0febd" />
+        <suppliersInternal>
+          <interfaceRealization Id="80637ef7-0789-4925-a44c-b1d81c3e1203">
+            <interfaceMoniker Id="af30f501-f9fd-4fa9-84fc-c99662e6ca49" LastKnownName="ITransport" />
+            <elementDefinition Id="7c2a0993-32e0-4273-b5b3-f0e2f3b183a3" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="4371ff0f-1735-4d30-b202-c953a9c25c20" isSubstitutable="false">
+            <classMoniker Id="60016f7f-f017-48d6-9123-97f1ddc470d7" LastKnownName="SpaceShip" />
+            <elementDefinition Id="7e27b44e-96b5-4f39-b182-fe720a319de1" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="27ad2edd-63b5-460d-8b85-2198c09a8c4a" name="Ship_radar" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="114facb1-bd9f-426a-89e4-bedc60b0b7bc" />
+        <generalsInternal>
+          <generalization Id="9c6c5a10-58d9-443e-baa1-177fdc8ac649" isSubstitutable="false">
+            <classMoniker Id="60016f7f-f017-48d6-9123-97f1ddc470d7" LastKnownName="SpaceShip" />
+            <elementDefinition Id="3749d6f8-1768-46ef-b05a-a9c7a3547457" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3d988e12-b19d-4120-9af9-8602b0a92058" name="Stealthship" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="aa106862-ec23-4df3-b1f4-77cc7ab215d9" />
+        <suppliersInternal>
+          <interfaceRealization Id="70dd643d-3496-44bf-8d2b-219bca077d19">
+            <interfaceMoniker Id="0b16bb06-ba69-4cb9-a6f3-aef86e9683d3" LastKnownName="IStealth" />
+            <elementDefinition Id="41f6c7cd-0a40-482e-9dfc-a01f2f0b938e" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="b93d24d1-7a3d-4117-97fe-528d5f6e9962" isSubstitutable="false">
+            <classMoniker Id="21c63dd2-730b-4286-a8a3-b4c13c8bf4bb" LastKnownName="Wasrship" />
+            <elementDefinition Id="2e7d57b4-29e7-4baf-a94f-dd79ae26593e" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="19a838b2-bc4f-4953-b57e-447b6c71b760" name="IPic" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2afd1cfd-5813-4d21-ad0b-e6a1d7fc0b53" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="08e91a42-0fe9-44a6-bd54-214ef6105a9b" name="IRegeneration" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="236c643b-b10b-4b70-8aef-6685f02e0d87" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="af30f501-f9fd-4fa9-84fc-c99662e6ca49" name="ITransport" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d340cb35-2bea-40e5-b6d3-30bf90cee9f8" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="0b16bb06-ba69-4cb9-a6f3-aef86e9683d3" name="IStealth" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="81c70385-f905-4c89-83b7-0a40e17e30f1" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="3663eaea-7e53-4c79-8689-367a2588041b" name="ITactics" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d307cfda-811f-4edf-a68d-36072a85b4e3" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="2f49a3dd-b0e3-40c1-92ec-d69ddfe305ce" name="ICreation" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e17df2a3-df5f-4825-b30c-be7aeedd814a" />
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="71dfcbd8-b9d6-435e-99b8-62ff6ba3a462" name="SpaceWar">
+    <elementDefinition Id="9f58dd0c-128c-443f-8fdc-35252550c643" />
+  </package>
+</logicalClassDesignerModel>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.input.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="visual.Controller">
+   <content>
+      <GridPane>
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" vgrow="SOMETIMES" />
+            <RowConstraints vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TabPane tabClosingPolicy="UNAVAILABLE" GridPane.rowIndex="2">
+              <tabs>
+                <Tab text="Цветокоррекция">
+                     <content>
+                        <GridPane>
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label text="Яркость">
+                                 <padding>
+                                    <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </Label>
+                              <Label text="Контрастность" GridPane.rowIndex="1">
+                                 <padding>
+                                    <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </Label>
+                              <Slider fx:id="brightnessSlider" prefWidth="250.0" GridPane.columnIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </GridPane.margin>
+                              </Slider>
+                              <Slider fx:id="contrastSlider" prefWidth="250.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </GridPane.margin>
+                              </Slider>
+                              <HBox prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2">
+                                 <children>
+                                    <CheckBox fx:id="shadesOfGrayCheckBox" mnemonicParsing="false" text="Оттенки серого" />
+                                    <CheckBox fx:id="binaryCheckBox" mnemonicParsing="false" text="Бинаризация" />
+                                    <CheckBox fx:id="negativeCheckBox" mnemonicParsing="false" text="Негатив" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </GridPane>
+                     </content>
+                  </Tab>
+                <Tab text="Эффекты">
+                     <content>
+                        <GridPane>
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <CheckBox fx:id="noiseCheckBox" mnemonicParsing="false" text="Шум" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                                 </GridPane.margin>
+                              </CheckBox>
+                              <Slider fx:id="noiseSlider" prefWidth="250.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </GridPane.margin>
+                              </Slider>
+                              <CheckBox fx:id="medianFilterCheckBox" mnemonicParsing="false" text="Медианный фильтр" GridPane.rowIndex="2">
+                                 <GridPane.margin>
+                                    <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                                 </GridPane.margin></CheckBox>
+                              <CheckBox fx:id="uniformFilterCheckBox" mnemonicParsing="false" text="Равномерный фильтр" GridPane.rowIndex="3">
+                                 <GridPane.margin>
+                                    <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                                 </GridPane.margin></CheckBox>
+                              <ComboBox fx:id="medianFilterComboBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="60.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <GridPane.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </GridPane.margin></ComboBox>
+                              <ComboBox fx:id="uniformFilterComboBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="60.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                 <GridPane.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </GridPane.margin>
+                              </ComboBox>
+                              <CheckBox fx:id="stampingCheckBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" text="Тиснение" GridPane.rowIndex="4">
+                                 <GridPane.margin>
+                                    <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                                 </GridPane.margin>
+                              </CheckBox>
+                              <CheckBox fx:id="harshnessCheckBox" mnemonicParsing="false" text="Резкость">
+                                 <GridPane.margin>
+                                    <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                                 </GridPane.margin>
+                              </CheckBox>
+                              <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1">
+                                 <children>
+                                    <ComboBox fx:id="harshnessComboBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="60.0">
+                                       <HBox.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </HBox.margin>
+                                    </ComboBox>
+                                    <Slider fx:id="harshnessSlider" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="190.0">
+                                       <HBox.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </HBox.margin>
+                                    </Slider>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </GridPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Масштабирование">
+                     <content>
+                        <GridPane>
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label text="Метод ближайшего соседа">
+                                 <GridPane.margin>
+                                    <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Slider fx:id="nearestNeighborSlider" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="300.0" GridPane.columnIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </GridPane.margin>
+                              </Slider>
+                              <Label text="Бикубическая интерполяция" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="5.0" left="15.0" right="5.0" top="5.0" />
+                                 </GridPane.margin>
+                              </Label>
+                              <Slider fx:id="bicubicInterpolationSlider" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </GridPane.margin>
+                              </Slider>
+                           </children>
+                        </GridPane>
+                     </content>
+                  </Tab>
+              </tabs>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </TabPane>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="Файл">
+                  <items>
+                    <MenuItem fx:id="openFileMenuItem" mnemonicParsing="false" onAction="#openFileMenuItem_onAction" text="Открыть файл">
+                           <accelerator>
+                              <KeyCodeCombination alt="UP" code="O" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                           </accelerator>
+                        </MenuItem>
+                        <MenuItem fx:id="saveChangesMenuItem" mnemonicParsing="false" onAction="#saveChangesMenuItem_onAction" text="Сохранить изменения">
+                           <accelerator>
+                              <KeyCodeCombination alt="UP" code="S" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                           </accelerator>
+                        </MenuItem>
+                        <MenuItem fx:id="cancelChangesMenuItem" mnemonicParsing="false" onAction="#cancelChangesMenuItem_onAction" text="Отменить изменения">
+                           <accelerator>
+                              <KeyCodeCombination alt="UP" code="Z" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                           </accelerator>
+                        </MenuItem>
+                        <MenuItem mnemonicParsing="false" onAction="#openChart" text="Гистограмма яркости" />
+                        <MenuItem fx:id="exitMenuItem" mnemonicParsing="false" text="Выход" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Редактирование">
+                  <items>
+                        <CheckMenuItem fx:id="shadesOfGrayCheckMenuItem" mnemonicParsing="false" text="Оттенки серого" />
+                        <CheckMenuItem fx:id="binaryCheckMenuItem" mnemonicParsing="false" text="Бинаризация" />
+                        <CheckMenuItem fx:id="negativeCheckMenuItem" mnemonicParsing="false" text="Негатив" />
+                        <CheckMenuItem fx:id="harshnessCheckMenuItem" mnemonicParsing="false" text="Резкость" />
+                        <CheckMenuItem fx:id="noiseCheckMenuItem" mnemonicParsing="false" text="Шум" />
+                        <CheckMenuItem fx:id="medianFilterCheckMenuItem" mnemonicParsing="false" text="Медианный фильтр" />
+                        <CheckMenuItem fx:id="uniformFilterCheckMenuItem" mnemonicParsing="false" text="Равномерный фильтр" />
+                        <CheckMenuItem fx:id="stampingCheckMenuItem" mnemonicParsing="false" text="Тиснение" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <ScrollPane prefHeight="600.0" prefWidth="800.0" GridPane.rowIndex="1">
+               <content>
+                  <Canvas fx:id="canvas" height="1080.0" width="1920.0" />
+               </content>
+            </ScrollPane>
+         </children>
+      </GridPane>
+   </content>
+</ScrollPane>

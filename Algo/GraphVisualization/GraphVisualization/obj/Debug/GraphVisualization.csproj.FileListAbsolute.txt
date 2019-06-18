@@ -1,0 +1,10 @@
+D:\GraphVisualization\GraphVisualization\obj\Debug\GraphVisualization.csprojResolveAssemblyReference.cache
+D:\GraphVisualization\GraphVisualization\obj\Debug\GraphVisualization.Canvas.resources
+D:\GraphVisualization\GraphVisualization\obj\Debug\GraphVisualization.csproj.GenerateResource.Cache
+D:\Projects\GraphVisualization\GraphVisualization\bin\Debug\GraphVisualization.dll
+D:\Projects\GraphVisualization\GraphVisualization\bin\Debug\GraphVisualization.pdb
+D:\Projects\GraphVisualization\GraphVisualization\obj\Debug\GraphVisualization.Canvas.resources
+D:\Projects\GraphVisualization\GraphVisualization\obj\Debug\GraphVisualization.csproj.GenerateResource.Cache
+D:\Projects\GraphVisualization\GraphVisualization\obj\Debug\GraphVisualization.dll
+D:\Projects\GraphVisualization\GraphVisualization\obj\Debug\GraphVisualization.pdb
+D:\Projects\GraphVisualization\GraphVisualization\obj\Debug\GraphVisualization.csprojResolveAssemblyReference.cache

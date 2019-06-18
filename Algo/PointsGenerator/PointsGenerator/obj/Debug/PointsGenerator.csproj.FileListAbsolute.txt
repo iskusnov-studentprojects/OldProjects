@@ -1,0 +1,1 @@
+c:\users\домо\documents\visual studio 2012\Projects\PointsGenerator\PointsGenerator\bin\Debug\PointsGenerator.exe.config

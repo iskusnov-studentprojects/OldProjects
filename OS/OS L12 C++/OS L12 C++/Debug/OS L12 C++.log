@@ -1,0 +1,17 @@
+﻿Сборка начата 07.05.2014 22:10:50.
+     1>Проект "D:\Projects\OS L12 C++\OS L12 C++\OS L12 C++.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\OS L12 C++.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\OS L12 C++.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "OS L12 C++.cpp"
+         OS L12 C++.cpp
+     1>d:\projects\os l12 c++\os l12 c++\os l12 c++.cpp(24): warning C4800: BOOL: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\OS L12 C++\Debug\OS L12 C++.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\OS L12 C++\Debug\OS L12 C++.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\OS L12 C++\Debug\OS L12 C++.lib" /MACHINE:X86 "Debug\OS L12 C++.obj"
+         Debug\stdafx.obj
+         OS L12 C++.vcxproj -> D:\Projects\OS L12 C++\Debug\OS L12 C++.exe
+     1>Построение проекта "D:\Projects\OS L12 C++\OS L12 C++\OS L12 C++.vcxproj" завершено (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:14.95

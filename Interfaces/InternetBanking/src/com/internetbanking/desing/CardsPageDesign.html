@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8" name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;PAPER_WIDTH&quot;:963,&quot;PAPER_HEIGHT&quot;:522,&quot;PAPER_SCROLL_LEFT&quot;:1874,&quot;PAPER_SCROLL_TOP&quot;:2277,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src&quot;,&quot;THEME&quot;:&quot;internetbanking&quot;}">
+  <meta charset="UTF-8" name="package-mapping" content="com_internetbanking_desing:com.internetbanking.desing">
+ </head> 
+ <body> 
+  <vaadin-grid-layout> 
+   <row> 
+    <column> 
+     <vaadin-horizontal-layout style-name="cardsPage" width-full="true" height="498px" _id="mainLayout"> 
+      <vaadin-vertical-layout style-name="topMargin pad" responsive="true" immediate="true" width="300px" height-full="true" margin="true"> 
+       <vaadin-table caption="Карты" size-full="true" _id="table" :expand=""></vaadin-table> 
+       <vaadin-button width="150px" height="30px" plain-text="" _id="bAddCard" :right="">
+         Привязать карту 
+       </vaadin-button> 
+      </vaadin-vertical-layout> 
+      <vaadin-vertical-layout height="400px" margin="true" :expand=""> 
+       <vaadin-label style-name="middleFont" size-auto="true" plain-text="">
+         Данные карты 
+       </vaadin-label> 
+       <vaadin-horizontal-layout> 
+        <vaadin-label width="150px" plain-text="">
+          Тип 
+        </vaadin-label> 
+        <vaadin-text-field enabled="false" width="200px" height="30px" _id="tfType"></vaadin-text-field> 
+       </vaadin-horizontal-layout> 
+       <vaadin-horizontal-layout> 
+        <vaadin-label width="150px" plain-text="">
+          Имя 
+        </vaadin-label> 
+        <vaadin-text-field enabled="false" width="200px" height="30px" _id="tfName"></vaadin-text-field> 
+        <vaadin-button width="200px" height="30px" plain-text="" _id="bNameChange">
+          Изменить 
+        </vaadin-button> 
+        <vaadin-horizontal-layout visible="false" _id="changeNameBlock" :expand=""> 
+         <vaadin-button width="100px" height="30px" plain-text="" _id="bNameCancel">
+           Отмена 
+         </vaadin-button> 
+         <vaadin-button width="100px" height="30px" plain-text="" _id="bNameConfirm">
+           Принять 
+         </vaadin-button> 
+        </vaadin-horizontal-layout> 
+       </vaadin-horizontal-layout> 
+       <vaadin-horizontal-layout> 
+        <vaadin-label width="150px" plain-text="">
+          Номер 
+        </vaadin-label> 
+        <vaadin-text-field enabled="false" width="200px" height="30px" _id="tfNumber"></vaadin-text-field> 
+       </vaadin-horizontal-layout> 
+       <vaadin-horizontal-layout> 
+        <vaadin-label width="150px" plain-text="">
+          Сумма на счету 
+        </vaadin-label> 
+        <vaadin-text-field enabled="false" width="150px" height="30px" _id="tfSummRub"></vaadin-text-field> 
+        <vaadin-label width="30px" plain-text="">
+          руб. 
+        </vaadin-label> 
+        <vaadin-text-field enabled="false" width="50px" height="30px" _id="tfSummCop"></vaadin-text-field> 
+        <vaadin-label width="30px" plain-text="">
+          коп. 
+        </vaadin-label> 
+       </vaadin-horizontal-layout> 
+       <vaadin-horizontal-layout> 
+        <vaadin-button width="250px" height="30px" plain-text="" _id="bSetMainCard">
+          Сделать карту основной 
+        </vaadin-button> 
+       </vaadin-horizontal-layout> 
+       <vaadin-label style-name="lessFont" size-auto="true" plain-text="">
+         *автоплатежи происходят путем списания суммы с основной карты 
+       </vaadin-label> 
+       <vaadin-button width="150px" height="30px" plain-text="" _id="bDeleteCard" :expand="">
+         Отвязать карту 
+       </vaadin-button> 
+      </vaadin-vertical-layout> 
+     </vaadin-horizontal-layout> 
+    </column> 
+   </row> 
+  </vaadin-grid-layout>  
+ </body>
+</html>

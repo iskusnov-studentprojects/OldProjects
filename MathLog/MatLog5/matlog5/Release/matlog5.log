@@ -1,0 +1,18 @@
+﻿Сборка начата 13.12.2014 16:07:55.
+     1>Проект "D:\MatLog5\matlog5\matlog5.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\matlog5.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt matlog5.cpp
+         matlog5.cpp
+     1>matlog5.cpp(28): warning C4101: c: неиспользованная локальная переменная
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\matlog5\Release\matlog5.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\matlog5\Release\matlog5.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\matlog5\Release\matlog5.lib" /MACHINE:X86 /SAFESEH Release\matlog5.obj
+         Release\stdafx.obj
+         Создание кода
+     1>d:\matlog5\matlog5\matlog5.cpp(84): warning C4715: countsquaresize: значение возвращается не при всех путях выполнения
+         Создание кода завершено
+         matlog5.vcxproj -> D:\matlog5\Release\matlog5.exe
+     1>Сборка проекта "D:\MatLog5\matlog5\matlog5.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:04.85

@@ -1,0 +1,40 @@
+C:\Users\Work\Google Диск\Projects\Timetable\Timetable\bin\Debug\Timetable.exe.config
+C:\Users\Work\Google Диск\Projects\Timetable\Timetable\obj\Debug\Timetable.csprojResolveAssemblyReference.cache
+C:\Users\Work\Google Диск\Projects\Timetable\Timetable\obj\Debug\Timetable.Form1.resources
+C:\Users\Work\Google Диск\Projects\Timetable\Timetable\obj\Debug\Timetable.Graphic.resources
+C:\Users\Work\Google Диск\Projects\Timetable\Timetable\obj\Debug\Timetable.Properties.Resources.resources
+C:\Users\Work\Google Диск\Projects\Timetable\Timetable\obj\Debug\Timetable.csproj.GenerateResource.Cache
+C:\Users\Work\Google Диск\Projects\Timetable\Timetable\bin\Debug\Timetable.exe
+C:\Users\Work\Google Диск\Projects\Timetable\Timetable\bin\Debug\Timetable.pdb
+C:\Users\Work\Google Диск\Projects\Timetable\Timetable\obj\Debug\Timetable.exe
+C:\Users\Work\Google Диск\Projects\Timetable\Timetable\obj\Debug\Timetable.pdb
+C:\Users\Sergey\Google Диск\Projects\OR&GT\Timetable\Timetable\bin\Debug\Timetable.exe.config
+C:\Users\Sergey\Google Диск\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.exe
+C:\Users\Sergey\Google Диск\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.pdb
+C:\Users\Sergey\Google Диск\Projects\OR&GT\Timetable\Timetable\bin\Debug\Timetable.exe
+C:\Users\Sergey\Google Диск\Projects\OR&GT\Timetable\Timetable\bin\Debug\Timetable.pdb
+C:\Users\Sergey\Google Диск\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.csprojResolveAssemblyReference.cache
+C:\Users\Sergey\Google Диск\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.Form1.resources
+C:\Users\Sergey\Google Диск\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.Graphic.resources
+C:\Users\Sergey\Google Диск\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.Properties.Resources.resources
+C:\Users\Sergey\Google Диск\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.csproj.GenerateResource.Cache
+C:\Users\Work\Google Диск\Projects\OR&GT\Timetable\Timetable\bin\Debug\Timetable.exe.config
+C:\Users\Work\Google Диск\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.exe
+C:\Users\Work\Google Диск\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.pdb
+C:\Users\Work\Google Диск\Projects\OR&GT\Timetable\Timetable\bin\Debug\Timetable.exe
+C:\Users\Work\Google Диск\Projects\OR&GT\Timetable\Timetable\bin\Debug\Timetable.pdb
+C:\Users\Work\Google Диск\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.csprojResolveAssemblyReference.cache
+C:\Users\Work\Google Диск\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.Form1.resources
+C:\Users\Work\Google Диск\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.Graphic.resources
+C:\Users\Work\Google Диск\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.Properties.Resources.resources
+C:\Users\Work\Google Диск\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.csproj.GenerateResource.Cache
+D:\GoogleDrive\Projects\OR&GT\Timetable\Timetable\bin\Debug\Timetable.exe.config
+D:\GoogleDrive\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.exe
+D:\GoogleDrive\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.pdb
+D:\GoogleDrive\Projects\OR&GT\Timetable\Timetable\bin\Debug\Timetable.exe
+D:\GoogleDrive\Projects\OR&GT\Timetable\Timetable\bin\Debug\Timetable.pdb
+D:\GoogleDrive\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.csprojResolveAssemblyReference.cache
+D:\GoogleDrive\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.Form1.resources
+D:\GoogleDrive\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.Graphic.resources
+D:\GoogleDrive\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.Properties.Resources.resources
+D:\GoogleDrive\Projects\OR&GT\Timetable\Timetable\obj\Debug\Timetable.csproj.GenerateResource.Cache

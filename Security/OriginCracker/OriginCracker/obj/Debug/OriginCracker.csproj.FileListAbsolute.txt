@@ -1,0 +1,9 @@
+D:\GoogleDrive\Projects\Security\OriginCracker\OriginCracker\bin\Debug\OriginCracker.exe.config
+D:\GoogleDrive\Projects\Security\OriginCracker\OriginCracker\bin\Debug\OriginCracker.exe
+D:\GoogleDrive\Projects\Security\OriginCracker\OriginCracker\bin\Debug\OriginCracker.pdb
+D:\GoogleDrive\Projects\Security\OriginCracker\OriginCracker\obj\Debug\OriginCracker.csprojResolveAssemblyReference.cache
+D:\GoogleDrive\Projects\Security\OriginCracker\OriginCracker\obj\Debug\OriginCracker.Form1.resources
+D:\GoogleDrive\Projects\Security\OriginCracker\OriginCracker\obj\Debug\OriginCracker.Properties.Resources.resources
+D:\GoogleDrive\Projects\Security\OriginCracker\OriginCracker\obj\Debug\OriginCracker.csproj.GenerateResource.Cache
+D:\GoogleDrive\Projects\Security\OriginCracker\OriginCracker\obj\Debug\OriginCracker.exe
+D:\GoogleDrive\Projects\Security\OriginCracker\OriginCracker\obj\Debug\OriginCracker.pdb
